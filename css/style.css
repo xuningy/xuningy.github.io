@@ -175,6 +175,8 @@
 		{
 			display: inline-block;
 			border: 0;
+			position: right;
+			float: right;
 		}
 
 			.image img
