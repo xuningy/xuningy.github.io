@@ -114,7 +114,7 @@
 		font-style: italic;
 	}
 
-	p, ul, ol, dl, table
+	p, ul, ol, dl, table, span
 	{
 		margin-bottom: 1em;
 		font-size: 12pt;
@@ -142,6 +142,7 @@
 	{
 		clear: both;
 	}
+
 
 	/* Sections/Articles */
 
@@ -173,7 +174,7 @@
 
 		.image
 		{
-			display: inline-block;
+			display: inline;
 			border: 0;
 			position: right;
 			float: right;

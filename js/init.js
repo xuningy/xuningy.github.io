@@ -61,23 +61,23 @@
 
 	// scrolly - this animates the slow transition to a certain point in the page
 
-		jQuery.fn.n33_scrolly = function(offset) {				
-			
+		jQuery.fn.n33_scrolly = function(offset) {
+
 			jQuery(this).click(function(e) {
 				var t = jQuery(this), h = t.attr('href'), target;
 
 				if (h.charAt(0) == '#' && h.length > 1 && (target = jQuery(h)).length > 0)
 				{
 					var x, pos;
-					
+
 					x = target.offset().top;
-					
+
 					if (t.hasClass('scrolly-centered'))
 						pos = x - (($(window).height() - target.outerHeight()) / 2);
 					else
 					{
 						pos = Math.max(x, 0);
-						
+
 						if (offset)
 						{
 							if (typeof(offset) == 'function')
@@ -86,9 +86,9 @@
 								pos -= offset;
 						}
 					}
-					
+
 					e.preventDefault();
-					
+
 					jQuery('body,html').animate({ scrollTop: pos }, 1000, 'swing');
 				}
 			});
@@ -107,7 +107,7 @@
 			var	$window = $(window),
 				$body = $('body');
 				$nav = $('#nav');
-				
+
 
 			// Scrolly links
 				$('.scrolly').n33_scrolly(function() {
@@ -123,11 +123,11 @@
 				if (_settings.useFullScreenHeader)
 				{
 					var $header = $('#header');
-					
+
 					if ($header.length > 0)
 					{
 						var $header_header = $header.find('header');
-						
+
 						$window
 							.on('resize.overflow_fsh', function() {
 								if (skel.isActive('mobile'))
@@ -138,22 +138,22 @@
 									var ptop = Math.min(160, ($window.height() - $header_header.outerHeight()) / 2);
 									var pbtm = Math.max(196, ($window.height() - $header_header.outerHeight()) / 2)-35;
 									$header.css('padding', ptop + 'px 0 ' + pbtm + 'px 0');
-									
+
 								}
 							})
 							.trigger('resize.overflow_fsh');
-							
+
 						$window.load(function() {
 							$window.trigger('resize.overflow_fsh');
 						});
 					}
 				}
-				
+
 			// Parallax Background
 				if (_settings.useParallax)
 				{
 					var $dummy = $(), $bg, $bg_nav;
-				
+
 					$window
 						.on('scroll.overflow_parallax', function() {
 							$bg.css('background-position', 'center ' + (-1 * (parseInt($window.scrollTop()) / _settings.parallaxFactor)) + 'px');
@@ -175,7 +175,7 @@
 								$bg = $body;
 								$bg_nav = $nav;
 							}
-								
+
 
 
 						})
@@ -187,13 +187,13 @@
 				}
 
 
-		
-				
+
+
 			// Poptrox
-			
+
 				if (skel.vars.IEVersion < 9)
 					_settings.poptrox.overlayOpacity = 0;
-			
+
 				$('.gallery').poptrox(_settings.poptrox);
 
 

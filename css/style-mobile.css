@@ -15,10 +15,9 @@
 
 	body,input,textarea,select
 	{
-		line-height: 1.5em;
-		font-size: 12pt;
+		/*line-height: 1.5em;*/
+		/*font-size: 14pt;*/
 		letter-spacing: 0;
-		width: 380px;
 	}
 
 	h2, h3, h4, h5, h6
@@ -109,7 +108,16 @@
 		}
 
 	/* Box */
-
+		.image
+		{
+			position: center;
+			float: none;
+			max-width: 220px;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 50px;
+		}
 		.box
 		{
 			margin-top: 4.5em;
