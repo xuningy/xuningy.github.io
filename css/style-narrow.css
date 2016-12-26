@@ -35,6 +35,14 @@
 			padding: 0 0 0.5em 0;
 		}
 
+		iframe
+		{
+			width: 373.33333333px;
+			height: 210px;
+			frameborder: 0;
+			allowfullscreen;
+		}
+
 	/* Box */
 
 		.box

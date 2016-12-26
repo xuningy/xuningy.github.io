@@ -143,6 +143,13 @@
 		clear: both;
 	}
 
+	iframe
+	{
+		width: 560px;
+		height: 315px;
+		frameborder: 0;
+		allowfullscreen;
+	}
 
 	/* Sections/Articles */
 

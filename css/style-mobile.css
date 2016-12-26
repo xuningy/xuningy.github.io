@@ -32,6 +32,14 @@
 		letter-spacing: 4px;
 	}
 
+	iframe
+	{
+		width: 224px;
+		height: 126px;
+		frameborder: 0;
+		allowfullscreen;
+	}
+
 	/* Lists */
 
 		ul.default
