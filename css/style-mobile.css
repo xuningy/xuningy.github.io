@@ -10,7 +10,7 @@
 
 	*
 	{
-		text-shadow: none !important;
+		/*text-shadow: none !important;*/
 	}
 
 	body,input,textarea,select
@@ -38,6 +38,7 @@
 		height: 126px;
 		frameborder: 0;
 		allowfullscreen;
+
 	}
 
 	/* Lists */
