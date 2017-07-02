@@ -32,7 +32,7 @@
 		-webkit-text-stroke: 0.25px;
 	}
 
-	h1,h2,h3,h4,h5,h6
+	h1,h2,h3,h4,h5
 	{
 		font-weight: 400;
 		text-transform: uppercase;
@@ -60,6 +60,13 @@
 	{
 		font-size: 1em;
 		letter-spacing: 5px;
+	}
+
+	h6
+	{
+		letter-spacing: 3px;
+		font-size: 8pt;
+		padding-top: -1em;
 	}
 
 	strong, b
@@ -113,9 +120,8 @@
 
 	blockquote
 	{
-		border-left: solid 0.5em #eae9e9;
+		border: solid 0.1em #eae9e9;
 		padding: 1em 0 1em 2em;
-		font-style: italic;
 	}
 
 	p, ul, ol, dl, table, span
@@ -144,7 +150,7 @@
 		header p
 		{
 			display: block;
-			margin: 0.5em 0 0 0.5em;
+			margin: 0.5em 0 0 0;
 			padding: 0 0 1.5em 0;
 		}
 
