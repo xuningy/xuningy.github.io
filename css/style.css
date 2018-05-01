@@ -13,10 +13,11 @@
 
 	body
 	{
-		background: #183026 url('../images/bg.jpg') no-repeat;
+		background: none;
 		background-size: cover;
 		background-position: center 0;
 		background-attachment: fixed;
+		padding: 5em 5em 5em 5em;
 	}
 
 
@@ -150,8 +151,9 @@
 		header p
 		{
 			display: block;
-			margin: 0.5em 0 0 0;
-			padding: 0 0 1.5em 0;
+			font-size: 10pt;
+			margin: 0.5pt 0 0 0;
+			padding: 0 0 0 0;
 		}
 
 	footer
