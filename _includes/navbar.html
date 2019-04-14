@@ -6,7 +6,7 @@
           {% if x.name == "github" %}
               <a href="{{ x.link }}">{{ x.name }}</a>
           {% else %}
-              <a href="{{ site.url }}{{ site.baseurl}}/{{ x.link }}">{{ x.name }}</a>
+              <a href="{{ site.url }}/{{ x.link }}">{{ x.name }}</a>
           {% endif %}
           {% if forloop.last == false %} {% endif %}
         </li>
