@@ -1,0 +1,20 @@
+<div class="navbar container">
+    <a id="site-title" class="alignable pull-left" href="{{ site.url }}{{ site.baseurl}}">{{ site.title }}</a>
+    <ul id="navlist" class="alignable pull-right navbar-ul">
+        {% for x in site.navbar %}
+        <li class="alignable pull-left navbar-list">
+          {% if x.name == "github" %}
+              <a href="{{ x.link }}">{{ x.name }}</a>
+          {% else %}
+              <a href="{{ site.url }}{{ site.baseurl}}/{{ x.link }}">{{ x.name }}</a>
+          {% endif %}
+          {% if forloop.last == false %} {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+    <br/>
+    <p id="site-subtitle" class="alignable pull-left" ><img  src="{{site.baseurl}}/assets/loudspeaker.png" height="10" width="12"> juh-NAY YANG</p>
+</div>
+<div style="clear:both"></div>
+
+<hr>
