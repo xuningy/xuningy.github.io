@@ -2,11 +2,11 @@ title: Xuning Yang
 author: Xuning Yang
 subtitle: xuning at cmu dot edu
 
-url: "xuningyang.com"
+url: "http://xuningyang.com"
 baseurl:
 
-footer_url: "https://github.com/pro-panda"
-footer_text: "Jekyll theme"
+footer_url: "https://www.pro-panda.tech/parchment/"
+footer_text: "theme"
 
 profile-picture: assets/profile.jpg
 favicon_location: assets/favicon.ico
@@ -18,8 +18,8 @@ sass:
 
 navbar:
  - name: "resume"
-   link: "Xuning_Yang_Resume.pdf"
+   link: "/Xuning_Yang_Resume.pdf"
  - name: "blog"
-   link: "blog"
+   link: "/blog"
  - name: "github"
    link: "https://github.com/xuningy"

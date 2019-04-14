@@ -19,6 +19,6 @@ You can contact me at xuning at cmu dot edu.
 5. X. Yang, K. Sreenath, and N. Michael, "Online Adaptive Teleoperation via Incremental Intent Modeling," in Proceedings of the Companion of the 2017 ACM/IEEE International Conference on Human-Robot Interaction (HRI '17), Vienna, Austria, March 2017. \[[PDF](http://doi.acm.org/10.1145/3029798.3038370)\]
 
 
-## TALKS
+## Talks
 
-1. Invited Talk. Invited Talk. "Toward intuitive human controlled MAVs: motion primitives based teleoperation". IROS 2018 workshop on *Vision based Drones: What's Next?*
+1. Invited Talk. "Toward intuitive human controlled MAVs: motion primitives based teleoperation". IROS 2018 workshop on *Vision based Drones: What's Next?*
