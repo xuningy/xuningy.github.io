@@ -36,4 +36,9 @@
     <meta name="twitter:title" content="{{ title }}" />
     <meta name="twitter:description" content="{{ desc }}" />
     <meta name="twitter:image" content="{{site.url}}{{ site.baseurl }}/{{site.favicon_location}}" />
+
+    <!-- GA -->
+    {% if site.google_analytics and jekyll.environment == 'production' %}
+    {% include ga.html %}
+    {% endif %}
 </head>

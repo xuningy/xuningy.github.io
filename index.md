@@ -40,3 +40,9 @@ Aditya Dhawale, **Xuning Yang**, and Nathan Michael
 *IROS 2018 workshop: Vision based Drones: What's Next?*
 
 ### Videos
+
+<!-- <div class="video">
+   <video  style="display:block; width:100%; height:auto;" autoplay controls loop="loop">
+       <source src="media/videos/rapyuta_2016.mp4" type="video/mp4" />
+   </video>
+</div> -->
