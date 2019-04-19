@@ -11,9 +11,9 @@ footer_url: "https://www.pro-panda.tech/parchment/"
 footer_text: "theme"
 
 profile-picture: assets/profile.jpg
-favicon_location: assets/favicon.ico
+favicon_location:
 
-permalink: /:year-:month-:day-:title/
+permalink: /:categories/:year-:month-:day-:title/
 sass:
     style: compressed
     sass_dir: css
