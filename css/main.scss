@@ -3,7 +3,9 @@
 ---
 // Customization Variables
 
-$accent: #35b88f;
+$accent: #0eb077;
+$codetext: #0a8f64;
+$codebg: #e9f2ef;
 $image-size: 150px;
 
 $max-width: 740px;
@@ -42,8 +44,15 @@ hr {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 code {
-    background-color: #d8e7ff;
-    color: #002b72;
+    background-color: $codebg;
+    color: $codetext;
+}
+
+.highlight {
+  background-color:  $codebg;
+  padding: 10pt 10pt 10pt 10pt;
+  margin: 10px;
+  overflow-wrap: break-word;
 }
 
 // divs
@@ -275,12 +284,19 @@ height : 100%;
         position: absolute;
         left: -30px;
     }
+    ol > li.publication-box {
+      box-shadow: 0px 0px 5px 1px #C0D5FA;
+    }
+
     blockquote {
         border-left: 5px solid #333333;
         margin: 20px 0 20px 0;
         padding: 2px 8px 2px 8px;
         font-style: italic;
     }
+
+
+
     .profile-picture {
         // max-height: 100;
         max-width: $image-size;

@@ -11,7 +11,6 @@ My research interests include applying statistical learning techniques to contro
 You can contact me at xuning at cmu dot edu.
 
 ### Publications
- <!-- <div class="alignable pull-right"><img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif"  height="40" /></div> -->
 
 1. [**Fast and Agile Vision-Based Flight with Teleoperation and Collision Avoidance on a Multirotor**](/papers/ISER18.pdf)  
 Alexander Spitzer\*, **Xuning Yang\***, John Yao, Aditya Dhawale, Kshitij Goel, Mosam Dabhi, Matt Collins, Curtis Boirum, and Nathan Michael  

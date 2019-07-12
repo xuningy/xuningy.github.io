@@ -39,6 +39,7 @@ A secured card is where you deposit $N of your own money, and the bank gives you
 The trick here is that you should have at least 2 x $N, since you're going to be depositing half and you are gonna be able to spend up to that amount. However, by US credit spending standards, you should not exceed spending more than 20-30% of your credit line -- that means, have a credit line of $N, really spend 0.3 N. You also want to maximize $N, because at the end of the first year when your deposit refund is returned, $N will become your standing credit line.
 
 Recommendation:
+
 - [Discover](https://www.discover.com/credit-cards/secured/). This gives you 2% cashback on gas and restaurants and cashback match at the end of the year (that means really 4% back on restaurants). BONUS: if you're a student, I think they give you a Good Student $20 cash back if your GPA is above a certain level.
 
 At some point, Discover will refund you your security deposit (woohoo! unexpected money back!) and now you can move to step 2. This should take about 6 months to a year, depending on your behavior. Your credit score should be somewhere between the 650 - 730's.
@@ -50,10 +51,12 @@ Here's where you can begin shopping around for cards, but you're still limited. 
 - Second thing: Sign up for Credit Karma (or Credit Sesame) and monitor your credit!
 
 Now, you'll likely want to apply for a low-risk, no annual fee card. Some classic examples with targeted categories include:
+
 - [American Express Blue Cash Everyday](https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/) 3% on groceries, 2% gas, $200 Bonus/$1000 Spend
 - [PNC Cash Rewards® Visa® Credit Card](https://www.pnc.com/en/personal-banking/banking/credit-cards.html) 4% back on gas
 
 All purchases:
+
 - [Citi DoubleCash](https://www.citi.com/credit-cards/credit-card-details/citi.action?ID=citi-double-cash-credit-card) 1% when you purchase, 1% when you pay (effectively 2%)
 - [Capital One Quicksilver](https://www.capitalone.com/credit-cards/quicksilver/) 1.5% back everything unlimited, $150 Bonus/$500 Spend
 
@@ -73,6 +76,7 @@ If you need to travel, you probably need a no foreign transaction fee card. Almo
 After one of two of the above cards, you want to upgrade to a few more nicer benefit cards. Assuming you've had credit for one, one and a half years at this point, Here's where you can look into having some nicer (annual fee) cards, or some other cards that may be harder to apply for.
 
 Some nice no-annual fee, cash-back  cards that I like:
+
 - [Barclays Uber Visa card](https://cards.barclaycardus.com/banking/cards/uber-visa-card/) 4% back on dining, 3% back airfare, hotels, airbnbs, 2% back online shopping, phone insurance, $50 subscription credit, and $100/$500 Bonus/Spend.
 - [Chase Freedom]() 5% back on rotating categories or the [Chase Freedom Unlimited]() 1.5% back anything
 
@@ -110,6 +114,7 @@ For travel rewards, definitely the famous Chase Sapphire reserve. So many people
 
 
 Cash back:
+
 - [Capital One Savor](https://www.capitalone.com/credit-cards/savor-dining-rewards/) 4% dining & entertainment, 2% grocery, free Postmates Unlimited for 1 year, 8% back on Vivid Seats til May 2020, $500/$3k Bonus, $95 AF.
 
 Basically at this point you're on your own for the rest of your credit journey! If you're interested in churning, [r/churning](https://www.reddit.com/r/churning/) has an extensive [wiki](https://www.reddit.com/r/churning/wiki/index) and a list of [links](https://www.reddit.com/r/churning/wiki/usefullinks), and I personally enjoy [Doctor Of Credit](https://www.doctorofcredit.com/) as a straight-forward, no-bs blog on credit card updates.
