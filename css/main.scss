@@ -1,11 +1,20 @@
 ---
 
 ---
+
 // Customization Variables
 
 $accent: #0eb077;
-$codetext: #0a8f64;
-$codebg: #e9f2ef;
+$inlinecodetext: #0a8f64;
+$inlinecodeborder: #CFE3DD;
+$inlinecodebg: #e9f2ef;
+// $codeblocktext: #464646;
+// $codeblockborder: #e5e5e5;
+// $codeblockbg: #f8f8f8;
+$codeblocktext: #0a8f64;
+$codeblockborder: #CFE3DD;
+$codeblockbg: #e9f2ef;
+
 $image-size: 150px;
 
 $max-width: 740px;
@@ -43,17 +52,43 @@ hr {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
+
 code {
-    background-color: $codebg;
-    color: $codetext;
+    background-color: $inlinecodebg;
+    color: $inlinecodetext;
+    padding:1px 2px;
+    border-radius:2px;
+    border:1px solid $inlinecodeborder;
+    overflow-x: auto;
+    font-size: small
+}
+
+pre code {
+  background-color: $codeblockbg;
+  color: $codeblocktext;
+  padding: none;
+  border-radius: none;
+  border: none;
+  font-size: small
+}
+
+pre {
+    padding:8px 15px;
+    background: $codeblockbg;
+    border-radius:5px;
+    border:1px solid $codeblockborder;
+    overflow-x: auto;
 }
 
 .highlight {
-  background-color:  $codebg;
-  padding: 10pt 10pt 10pt 10pt;
-  margin: 10px;
-  overflow-wrap: break-word;
+    // background-color:  $codebg;
+    // padding:8px 15px;
+    // background: #f8f8f8;
+    // border-radius:5px;
+    // border:1px solid #e5e5e5;
+    // overflow-x: auto;
 }
+
 
 // divs
 .preview {
