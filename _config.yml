@@ -7,7 +7,7 @@ baseurl:
 
 google_analytics: UA-138680448-1
 
-footer_url: "https://www.pro-panda.tech/parchment/"
+footer_url: "https://github.com/pro-panda/parchment"
 footer_text: "theme"
 
 profile-picture: assets/profile.jpg
@@ -25,3 +25,5 @@ navbar:
    link: "/blog"
  - name: "github"
    link: "https://github.com/xuningy"
+
+markdown: kramdown

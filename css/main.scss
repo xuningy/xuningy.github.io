@@ -60,7 +60,9 @@ code {
     border-radius:2px;
     border:1px solid $inlinecodeborder;
     overflow-x: auto;
-    font-size: small
+    font-size: small;
+    font-family: "dejavu sans mono", "Ubuntu Mono", "Inconsolata", monospace;
+    font-style: normal;
 }
 
 pre code {
@@ -69,7 +71,9 @@ pre code {
   padding: none;
   border-radius: none;
   border: none;
-  font-size: small
+  font-size: small;
+  font-family: "dejavu sans mono", "Ubuntu Mono", "Inconsolata", monospace;
+  font-style: normal;
 }
 
 pre {
@@ -78,6 +82,23 @@ pre {
     border-radius:5px;
     border:1px solid $codeblockborder;
     overflow-x: auto;
+    font-family: "dejavu sans mono", "Ubuntu Mono", "Inconsolata", monospace;
+    font-style: normal;
+    line-height: 1.15;
+}
+
+.filename{
+  font-family: "dejavu sans mono", "Ubuntu Mono", "Inconsolata", monospace;
+  font-style: normal;
+  background-color: $codeblockborder;
+  color: $codeblocktext;
+  padding:3px 3px;
+  border-radius:5px 5px 0 0;
+  overflow-x: auto;
+  font-size: small;
+  margin-bottom: -23px;
+  padding-left: 1em;
+  padding-bottom: 7px;
 }
 
 .highlight {
@@ -87,6 +108,16 @@ pre {
     // border-radius:5px;
     // border:1px solid #e5e5e5;
     // overflow-x: auto;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
 
 
@@ -306,6 +337,39 @@ height : 100%;
 		margin: 0;
 	}
 }
+// toc
+.toc {
+  line-height: 15px;
+  list-style-type: dot;
+  color: $inlinecodetext;
+}
+
+// Image
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.caption {
+  text-align: center;
+  line-height: 20px;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 14px;
+}
+.row {
+  display: flex; /* equal height of the children */
+}
+.col {
+  flex: 1; /* additionally, equal width */
+
+  padding: 1em;
+}
+
+img[src*='#center'] {
+    display: block;
+    margin: auto;
+}
 
 //  typography
 
@@ -371,6 +435,7 @@ height : 100%;
         width: 100%;
     }
 }
+
 
 table {
     margin: 15px 0;
