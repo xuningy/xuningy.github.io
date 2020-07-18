@@ -2,7 +2,7 @@
 layout: post
 title: Building your credit history from nothing
 snippet: A guide on how to build your credit history from nothing for expats moving to the US.
-tags: [guide, life, finance]
+tags: [how-to, life, finance]
 ---
 
 The benefits that come with credit cards in the US are really, really nice, and you can't do any of that without a good credit history. If you're going to be living here for awhile, you never know when a line of credit will come in handy. As an expat living in the US, I wish such a guide existed to guide me on how to build my credit. This post is entirely written by me based on my personal experience, and I wish it was somehow sponsored to supplement my bank accounts a bit more so I can stop living like a graduate student.

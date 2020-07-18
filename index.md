@@ -12,11 +12,10 @@ You can contact me at xuning at cmu dot edu.
 
 ### Publications
 
-1. [**Motion Primitive Trees: Real-Time Trajectory Generation via Biased
-Incremental Action Sampling**]()  
+1. [**Assisted Mobile Robot Teleoperation with Intent-aligned Trajectories via Biased Incremental Action Sampling**]()  
  **Xuning Yang** and Nathan Michael  
-*Submitted to IEEE International Conference on Robotics and Automation (ICRA), 2020*  
-[<a class="link" href="#">gif<img class="preview" src="assets/gifs/icra20.gif"></a>]
+*IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), October 2020*  
+[<a class="link" href="#">gif<img class="preview" src="assets/gifs/iros20.gif"></a>]
 
 2. [**Fast and Agile Vision-Based Flight with Teleoperation and Collision Avoidance on a Multirotor**](/papers/ISER18.pdf)  
 Alexander Spitzer\*, **Xuning Yang\***, John Yao, Aditya Dhawale, Kshitij Goel, Mosam Dabhi, Matt Collins, Curtis Boirum, and Nathan Michael  
