@@ -96,8 +96,14 @@ To change these spaces:
 % Fix table caption distance to table
 \captionsetup{skip=5pt}           %% space between caption distance to table
 ```
+<br/>
+
+---------------------
 
 ## Preset spacing for conference .cls
+<div class="danger">
+<b>Do not do this unless this is your last resort! Modifying the given .cls is not recommended!</b>
+</div>
 Conferences usually provide a `.cls` file which encode the format. You may notice that your section titles have large spaces preceding them sometimes, that may be due to the adaptive spacing they encode in for the section titles. I do not recommend changing this, but if-need-be, here's a way to disable the adaptive spacing (and change the fixed spacing) for your paper.
 
 In your `.cls` file, try to find a section that contains `\def\section{@startsection{`. You might see something like this for each type of section definition:

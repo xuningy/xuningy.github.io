@@ -287,6 +287,63 @@ height : 100%;
     }
 }
 
+.warning {
+    padding: 12px 24px 12px 30px;
+    margin: 2em 0;
+    border-left: 4px solid #FFB90F;
+    background-color: #f8f8f8;
+    position: relative;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    box-sizing: border-box;
+
+    &:before {
+        position: absolute;
+        top: 14px;
+        left: -12px;
+        background-color: #FFB90F;
+        color: #fff;
+        content: "!";
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        text-align: center;
+        line-height: 20px;
+        font-weight: bold;
+        font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 14px;
+    }
+}
+
+.danger {
+    padding: 12px 24px 12px 30px;
+    margin: 2em 0;
+    border-left: 4px solid #FF6A6A;
+    background-color: #f8f8f8;
+    position: relative;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    box-sizing: border-box;
+    color:  #FF6A6A;
+
+    &:before {
+        position: absolute;
+        top: 14px;
+        left: -12px;
+        background-color: #FF6A6A;
+        color: #fff;
+        content: "!!";
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        text-align: center;
+        line-height: 20px;
+        font-weight: bold;
+        font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 14px;
+    }
+}
+
 
 // Mobile
 
