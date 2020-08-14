@@ -33,14 +33,51 @@ here, your commands will only be applied locally to this one table.
 
 </div>
 
+------------------------
 
-## Text
+
+## Tip 1: Reduce font sizes
+Some might disagree on this, but minor adjustments should be okay so long as it does not compromise readability!
+
+### Equations/Tables
+If your equation won't fit on one line, sometimes it's a good idea to reduce the equation font size by one size. I do this with the above "apply local" trick:
+
+``` latex
+{
+  \small
+  \begin{equation}
+  ...
+  \end{equation}
+}
+```
+You can also reduce fonts in tables and other one-off objects using this method. 
+
+### Algorithm
+If you use the `algorithm2e` package, you can set the font size as follows:
+``` latex
+\SetAlFnt{\small}
+```
+
+### Captions
+Pretty self explanatory.
 ``` latex
 \usepackage[font={footnotesize}]{caption} % reduce caption size
+```
+
+<br/>
+
+------------------------
+
+## Tip 2: Adjust spacing
+
+The oldest trick in the book is `vspace`. Quite literally, you just have to put `\vspace{-1em}` or whatever unit of measure you fancy with a negative sign wherever you need the vertical white space reduced. However, this method doesn't always work. For other tricks, read on.
+
+### Footer
+``` latex
 \setlength{\skip\footins}{0.5ex} % distance between text and footer
 ```
 
-### Lists, etc
+### List spacing
 ``` latex
 \usepackage{enumitem} %% include this if you don't already have it
 % `noitemsep` removes spaces between items in list
@@ -53,7 +90,7 @@ here, your commands will only be applied locally to this one table.
 
 ```
 
-### Equation
+### Equation spacing
 ``` latex
 % fix equation spacing before and after
 \setlength{\abovedisplayskip}{1pt}
@@ -61,13 +98,7 @@ here, your commands will only be applied locally to this one table.
 
 ```
 
-### Algorithm
-If you use the `algorithm2e` package, you can set the font size as follows:
-``` latex
-\SetAlFnt{\small}
-```
-
-## Float environments
+### Float environments spacing
 Floating environments are figures, tables and algorithms.
 The relationship between text and floats are shown in the following image. Changing the macros will affect all types of floats.
 
@@ -84,7 +115,7 @@ To change these spaces:
 \setlength{\belowcaptionskip}{0.7em} % reduce space below captions
 ```
 
-### Tables
+### Inside table spacing
 
 ``` latex
 % Change table row height (this is a factor representing the distance between two rows)
@@ -98,9 +129,8 @@ To change these spaces:
 ```
 <br/>
 
----------------------
 
-## Preset spacing for conference .cls
+### Preset section title spacing for conference .cls
 <div class="danger">
 <b>Do not do this unless this is your last resort! Modifying the given .cls is not recommended!</b>
 </div>
