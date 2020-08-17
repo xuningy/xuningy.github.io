@@ -77,8 +77,8 @@ After one of two of the above cards, you want to upgrade to a few more nicer ben
 
 Some nice no-annual fee, cash-back  cards that I like:
 
-- [Barclays Uber Visa card](https://cards.barclaycardus.com/banking/cards/uber-visa-card/) 4% back on dining, 3% back airfare, hotels, airbnbs, 2% back online shopping, phone insurance, $50 subscription credit, and $100/$500 Bonus/Spend.
-- [Chase Freedom]() 5% back on rotating categories or the [Chase Freedom Unlimited]() 1.5% back anything
+- [Barclays Uber Visa card](https://cards.barclaycardus.com/banking/cards/uber-visa-card/) 4% back on dining, 3% back airfare, hotels, airbnbs, 2% back online shopping, phone insurance, $50 subscription credit, and $100/$500 Bonus/Spend. **(Update 08/17/2020: this card is no longer offering these benefits, so I would recommend the Capital One Savor One instead.)**
+- [Chase Freedom]() 5% back on rotating categories or the [Chase Freedom Unlimited]() 1.5% back everything
 
 <div class="tip">
 <b>Chase cards</b>
@@ -108,7 +108,7 @@ Each of these has their own set of <a href="https://wallethub.com/edu/cc/visa-vs
 At this point, you've had 2+ years of credit history, your score is comfortably sitting above 750+, and you're looking to maximize your rewards. Most of the premium cards has reward in the form of miles, but if you don't travel a lot, you might want to look into some other cards. Since you're looking into a premium card, they usually have an annual fee associated with it. Some of the most talked about ones are:
 
 For travel rewards, definitely the famous Chase Sapphire reserve. So many people I know rave about it, which is kind of ridiculous considering it is a *credit card*. It does have nice benefits:
-- [Chase Sapphire Reserve](https://creditcards.chase.com/rewards-credit-cards/chase-sapphire-reserve) $300 Travel credit, 3x points travel dining worldwide, PriorityPass lounge passes, primary coverage for Auto Collision Damage Waiver, 50k bonus points, $450 AF. Even though it's a $450 AF, you get $300 travel credit as soon as you book a flight with it, so it's technically $150 AF.
+- [Chase Sapphire Reserve](https://creditcards.chase.com/rewards-credit-cards/chase-sapphire-reserve) $300 Travel credit, 3x points travel dining worldwide, PriorityPass lounge passes, primary coverage for Auto Collision Damage Waiver, 50k bonus points, $450 AF. Even though it's a $450 AF, you get $300 travel credit as soon as you book a flight with it, so it's technically $150 AF. **(Update 08/17/2020: As of 02/2020, the AF has been changed to $550 with other benefits such as 10x points on Lyft, 1 year complimentary Lyft Pink, a free year of DashPass, and $120 DoorDash credit.)**
 - If that's too much, similar benefits are provided by the [Chase Sapphire Preferred](https://creditcards.chase.com/rewards-credit-cards/chase-sapphire-preferred) 2x points travel dining worldwide, primary coverage for Auto Collision Damage Waiver, 60k bonus points, $95 AF.
 - The [American Express Platinum Card](https://www.americanexpress.com/us/credit-cards/card/platinum/?eep=25330&linknav=US-Acq-Shop-Consumer-CategoryTravelRewardsCards-Prospect-CardLink-Platinum) is one that is comparable to CSR, but if you read the fine lines, it may not be worth it.
 

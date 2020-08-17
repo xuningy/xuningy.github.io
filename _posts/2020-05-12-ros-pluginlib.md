@@ -14,37 +14,40 @@ However I've found that most of the tutorials illustrate only the base cases whe
 
 <div class="row">
     <div class="col">
-    {% include image.html url="/assets/2020-05-12-ros-pluginlib/all-in-one.png" description="The base class of the plugin and the implementations all in one package. This makes it difficult to work on individual plugins without having to compile all of the other plugins and their dependencies." width="100%" %}
+    {% include image.html url="/assets/2020-05-12-ros-pluginlib/all-in-one.png" description="<b>Package configuration 1</b>: The base class of the plugin and the implementations all in one package. This makes it difficult to work on individual plugins without having to compile all of the other plugins and their dependencies." width="100%" %}
     </div>
     <div class="col">
-        {% include image.html url="/assets/2020-05-12-ros-pluginlib/plugin-separated.png" description="The base plugin in one package, and the plugins all in one package. This is effectively the same as the before, all of the plugins are still in the same package." width="100%" %}
+        {% include image.html url="/assets/2020-05-12-ros-pluginlib/plugin-separated.png" description="<b>Package configuration 2</b>: The base class of the plugin in one package, and the plugins all in a separate package. Implementation wise, this is effectively the same as the before, as all of the plugins are all bundled in the same package thus we have to compile all the dependencies of all the plugins, regardless of the plugin being used." width="100%" %}
     </div>
 </div>
 
 
 The more proper usage case is illustrated as follows, where relevant plugins are packaged separately, allowing the possibility of separate compilation. This is the most helpful use case, when you design your code architecture for loading various planners, controllers, etc.  This is a quick tutorial to showcase how to set up this architecture.
 
-{% include image.html url="/assets/2020-05-12-ros-pluginlib/ideal.png" description="The ideal use case described in this tutorial. Relevant plugins are packaged separately, allowing the possibility of separate compilation" width="50%" %}
+{% include image.html url="/assets/2020-05-12-ros-pluginlib/ideal.png" description="<b>Package configuration 3</b>: The ideal use case described in this tutorial. Relevant plugins are packaged separately, allowing the dependencies of each plugin to be compiled only with itself, and allows you to work on one plugin without having to compile dependencies for another." width="50%" %}
 
 
 <div class="tip">
 <b>A note on structure:</b>
 
-This tutorial is built around assuming that you have your base class and implementation class are in different packages, and that you may have more than one plugin packages. You may find this structure unnecessary. Here are some suggestions:
+This tutorial is built around assuming that you have your base class and implementation class are in different packages, and that you may have more than one plugin packages (i.e., <b>package configuration 3</b>). You may find this structure unnecessary. Here are some suggestions if you want either of the above two scenarios while following this tutorial:
 
 <ul>
-<li>If you want to have base class and plugin classes in the same package, <b>follow the same steps here, except just put them all in one package (and add to the same <code>CMakeLists.txt</code> and <code>package.xml</code> as appropriate</b>).</li>
-<li>If you find it cumbersome to have multiple plugin packages, you can just put all of your plugins inside a single plugin package. In that case, <b>ignore all the parts regarding <code>nonlinear_controller</code></b>.</li>
+<li> <b>Package configuration 1:</b> If you want to have base class and plugin classes in the same package, <b>follow the same steps here, except just put them all in one package (and add to the same <code>CMakeLists.txt</code> and <code>package.xml</code> as appropriate</b>).</li>
+<li> <b>Package configuration 2:</b> If you find it cumbersome to have multiple plugin packages, you can just put all of your plugins inside a single plugin package. In that case, <b>ignore all the parts regarding <code>nonlinear_controller</code></b>.</li>
 </ul>
 </div>
 
 This tutorial requires basic understanding of ROS, writing CMakeLists.txt, and basic proficiency of C++ and virtual abstract classes.
 
-## Problem statement
+## Scenario
+We'll first describe the scenario in the **package configuration 3** figure above.
 
-Suppose that you have a control framework which we will call `ControlFramework` that loads a controller and applies it, regardless of its underlying choice of implementation. Suppose you have 3 implementations: `LinearController1`, and `LinearController2`, and `NonlinearController`, you want to be able to choose between them at runtime. Also, suppose that `NonlinearController` has its own dependencies `noninear_dependency` that takes a long time to build... and on the days you only want to use one of the `LinearController`s, you'd like to just ignore `NonlinearController` altogether.
+Suppose that you have implemented a control framework, `ControlFramework`, which loads a chosen controller at runtime and applies the controller. The controller is to be chosen via a parameter at launch. Suppose you have 3 implementations to choose from: `LinearController1`, and `LinearController2`, and `NonlinearController`. All of these derive from a base virtual class that has the same function calls, however, just the algorithm that implements the function calls are different.
 
+Suppose that `NonlinearController` has its own dependencies `noninear_dependency` that takes a long time to build... and on the days you only want to use one of the `LinearController`s, you'd like to just ignore `NonlinearController` altogether, without having to worry about installing/compiling `NonlinearController`'s dependencies.
 
+This scenario also allows multiple people to work on multiple implementations of the same base virtual class, without having to interfere with other people's implementations.
 
 
 ## Code layout
@@ -78,6 +81,7 @@ controller
 ```
 
 #### Plugin classes layout
+
 These are pretty standard, but notice the addition of a `plugins.xml`. Their names doesn't really matter, whatever you like as long as you are consistent:
 ```
 linear_controller
@@ -438,3 +442,8 @@ private:
 ```
 
 And voila! You can now use `controller_` as a normal pointer to your controller and use it as normal.
+
+
+<div class="tip">
+You can make the call to implementation even more general by replacing the above if-else statements by using consistent naming and string concatenation in lieu of <code>...createInstance("control::CLASS_NAME_HERE")...</code> ! Feel free to do so if you are able to make sure that your class names are consistent.
+</div>
