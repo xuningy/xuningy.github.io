@@ -2,7 +2,7 @@
 layout: post
 title: Building your credit history from nothing
 snippet: A guide on how to build your credit history from nothing for expats moving to the US.
-tags: [how-to, life, finance]
+tags: [how-to, life]
 ---
 
 The benefits that come with credit cards in the US are really, really nice, and you can't do any of that without a good credit history. If you're going to be living here for awhile, you never know when a line of credit will come in handy. As an expat living in the US, I wish such a guide existed to guide me on how to build my credit. This post is entirely written by me based on my personal experience, and I wish it was somehow sponsored to supplement my bank accounts a bit more so I can stop living like a graduate student.
@@ -78,7 +78,7 @@ After one of two of the above cards, you want to upgrade to a few more nicer ben
 Some nice no-annual fee, cash-back  cards that I like:
 
 - [Barclays Uber Visa card](https://cards.barclaycardus.com/banking/cards/uber-visa-card/) 4% back on dining, 3% back airfare, hotels, airbnbs, 2% back online shopping, phone insurance, $50 subscription credit, and $100/$500 Bonus/Spend. **(Update 08/17/2020: this card is no longer offering these benefits, so I would recommend the Capital One Savor One instead.)**
-- [Chase Freedom]() 5% back on rotating categories or the [Chase Freedom Unlimited]() 1.5% back everything
+- [Chase Freedom]() 5% back on rotating categories or the [Chase Freedom Unlimited]() 1.5% back everything **(Update 09/09/2020: The Chase Freedom is discontinued and in its place is the Chase Freedom Flex (A mastercard). It offers the same 5% cash back, and from what it looks like in the near future, it will also offer 3% back on restaurants, 3% drugstores, all for no annual fee!)**
 
 <div class="tip">
 <b>Chase cards</b>
