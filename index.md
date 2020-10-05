@@ -12,9 +12,11 @@ You can contact me at xuning at cmu dot edu.
 
 ### Publications
 
-1. [**Assisted Mobile Robot Teleoperation with Intent-aligned Trajectories via Biased Incremental Action Sampling**]()  
+1. [**Assisted Mobile Robot Teleoperation with Intent-aligned Trajectories via Biased Incremental Action Sampling**](/papers/IROS20.pdf)  
  **Xuning Yang** and Nathan Michael  
 *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), October 2020*  
+\[[bibtex](bibtex/iros20.txt)\]
+\[[video presentation](https://youtu.be/Tulya5WtB_Y)\]
 [<a class="link" href="#">gif<img class="preview" src="assets/gifs/iros20.gif"></a>]
 
 2. [**Fast and Agile Vision-Based Flight with Teleoperation and Collision Avoidance on a Multirotor**](/papers/ISER18.pdf)  
@@ -45,7 +47,6 @@ Aditya Dhawale, **Xuning Yang**, and Nathan Michael
 **Xuning Yang**, Koushil Sreenath, and Nathan Michael  
 *Late Breaking Report, International Conference on Human-Robot Interaction (HRI), March 2017*  
 \[[bibtex](bibtex/hri17.txt)\]
-
 
 ### Talks
 
