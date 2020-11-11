@@ -25,5 +25,7 @@ navbar:
    link: "/blog"
  - name: "github"
    link: "https://github.com/xuningy"
+ - name: "google scholar"
+   link: "https://scholar.google.com/citations?hl=en&user=hM9EtNwAAAAJ"
 
 markdown: kramdown
