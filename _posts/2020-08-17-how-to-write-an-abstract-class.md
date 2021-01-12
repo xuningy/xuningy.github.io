@@ -2,7 +2,7 @@
 layout: post
 title: How to structure and write an abstract class
 snippet: quick tutorial on abstract classes using coffee makers as an example
-tags: [ROS, software, how-to]
+tags: [C++]
 ---
 
 I had previously written a blog post on how to write a plugin in ROS using pluginlib, and there I created an abstract class for structuring controllers for the robot. While that was a very good use case for ROS plugins, it was too specific for robotics, and I wanted to single out the concepts of abstract classes and make it clear how to write/think about abstract classes. So in this tutorial we will talk about how to think of different types of coffee maker as an abstract class.

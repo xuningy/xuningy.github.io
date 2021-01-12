@@ -2,7 +2,7 @@
 layout: post
 title: Space tricks in Latex
 snippet: How to adjust/shrink white spaces in latex documents for when you're just one line over the conference page limit
-tags: [how-to, latex]
+tags: [latex]
 ---
 
 Here's a quick guide for a bunch of different ways to adjust white spaces in latex. Instead of relying on `vspace` everywhere for everything to fit in a conference paper, try adjusting the white spaces around typical objects: floats (tables, figures, algorithms), text, and equations.
@@ -50,7 +50,7 @@ If your equation won't fit on one line, sometimes it's a good idea to reduce the
   \end{equation}
 }
 ```
-You can also reduce fonts in tables and other one-off objects using this method. 
+You can also reduce fonts in tables and other one-off objects using this method.
 
 ### Algorithm
 If you use the `algorithm2e` package, you can set the font size as follows:

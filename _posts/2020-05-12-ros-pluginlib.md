@@ -2,7 +2,7 @@
 layout: post
 title: Tutorial on ROS Pluginlib
 snippet: How to actually write a plugin in ROS
-tags: [ROS, software, how-to]
+tags: [C++, robotics]
 ---
 - TOC
 {:toc .toc}

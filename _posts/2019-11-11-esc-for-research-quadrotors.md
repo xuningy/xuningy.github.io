@@ -2,7 +2,7 @@
 layout: post
 title: Comparison of Quadrotor ESCs for autonomous flight
 snippet: A comparison of ESC firmware, communication protocols and available models for building a quadrotor for precise motor control
-tags: [UAV, ESC, control, hardware]
+tags: [robotics, hardware]
 ---
 
 There are a lot of available quadrotor ESCs available on the market.

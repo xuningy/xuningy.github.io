@@ -7,8 +7,8 @@ baseurl:
 
 google_analytics: UA-138680448-1
 
-footer_url: "https://github.com/pro-panda/parchment"
-footer_text: "theme"
+footer_url:
+footer_text: "Copyright © 2021 Xuning Yang"
 
 profile-picture: assets/profile.jpg
 favicon_location:
