@@ -19,7 +19,7 @@ sass:
     sass_dir: css
 
 navbar:
- - name: "resume"
+ - name: "cv"
    link: "/Xuning_Yang_Resume.pdf"
  - name: "blog"
    link: "/blog"
@@ -29,3 +29,5 @@ navbar:
    link: "https://scholar.google.com/citations?hl=en&user=hM9EtNwAAAAJ"
 
 markdown: kramdown
+kramdown:
+  math_engine: katex

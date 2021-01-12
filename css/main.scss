@@ -211,16 +211,22 @@ pre {
     max-width: 500px;
     color: #272727;
     display: inline-block;
-    font-size: 30px;
+    font-size: 25px;
+    line-height: 1.2;
+    margin-top: 10px // this must match the one in .post-details
 }
 .post-details{
     @extend .pull-right;
     text-align: right;
     margin-left: 20px;
+    margin-top: 10px
 }
 .post-snippet{
     max-width: 500px;
+    margin-top:10px
 }
+
+.katex { font-size: 1em !important; }
 
 // pages
 
@@ -476,13 +482,10 @@ img[src*='#center'] {
     }
 
     blockquote {
-        border-left: 5px solid #333333;
-        margin: 20px 0 20px 0;
-        padding: 2px 8px 2px 8px;
-        font-style: italic;
+        background-color: rgba(0,0,0,0.05);
+        margin: 20px 30px 20px 30px;
+        padding: 2px 30px 2px 30px;
     }
-
-
 
 
     .profile-picture {
