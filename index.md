@@ -4,7 +4,7 @@ layout: default
 
 <img class="profile-picture" src="{{site.baseurl}}/{{site.profile-picture}}">
 
-​I am a Ph.D. student in the [Robotics Institute](https://www.ri.cmu.edu/) at Carnegie Mellon University, working with Prof. Nathan Michael at the [Resilient Intelligent Systems Lab (RISLab)](https://www.rislab.org/). I obtained my B.A.Sc. in [Engineering Science](http://engsci.utoronto.ca/explore_our_program/about_engsci/) with Honours from University of Toronto, with a major in [Aerospace Engineering](http://www.utias.utoronto.ca/) and a minor in Robotics and Mechatronics.
+​I am a Ph.D. student in the [Robotics Institute](https://www.ri.cmu.edu/) at Carnegie Mellon University, working with Prof. Nathan Michael at the [Resilient Intelligent Systems Lab (RISLab)](https://www.rislab.org/). I obtained my B.A.Sc. in [Engineering Science](https://engsci.utoronto.ca/program/what-is-engsci/) with Honours from University of Toronto, with a major in [Aerospace Engineering](http://www.utias.utoronto.ca/) and a minor in Robotics and Mechatronics.
 
 My research interests include applying statistical learning techniques to control theory. More recently, my research has focused on online modeling and prediction of operator intent for human-in-the-loop control of autonomous mobile robots, and agile safe navigation in unknown environments.
 
