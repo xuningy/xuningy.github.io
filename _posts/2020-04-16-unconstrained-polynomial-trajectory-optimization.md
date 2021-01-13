@@ -390,7 +390,7 @@ $$\begin{aligned}
 
 Given that the endpoint constraints are fixed, then the new optimization
 variable are the free derivatives. We can rewrite the ordered derivative
-vector $\mathbf{D}$ into a new derivative vector $$D$$, which separates
+vector $$\mathbf{D}$$ into a new derivative vector $$D$$, which separates
 out the fixed derivatives ($$D_F$$) and the free derivatives ($$D_P$$):
 
 $$D = \begin{bmatrix} D_F \\ D_P \end{bmatrix}$$
