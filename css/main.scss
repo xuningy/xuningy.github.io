@@ -130,24 +130,23 @@ pre {
                                   supported bty Chrome, Edge, Opera and Firefox */
 }
 
-
 // divs
-.preview {
-  display: none;
-  background-color: white;
+
+.gif-link {
+  cursor: pointer;
 }
-.link:hover .preview {
-  display: inline-block;
-  opacity: 1;
-  position: absolute;
-  top: -10%;
-  right: 750px;
-  max-height: 150px;
-  width: auto;
-  z-index: 1000;
-  border-style: 2px solid black;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+.gif {
+    display: none;
+    opacity: 1;
+    max-height: 150px;
+    width: auto;
+    z-index: 1000;
+    border-style: 2px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+
 
 .alignable {
     display: inline-block;
@@ -446,10 +445,6 @@ img[src*='#center'] {
 
 //  typography
 
-
-
-
-
 .content {
     line-height: 1.5;
     ol {
@@ -526,7 +521,6 @@ img[src*='#center'] {
 
     img {
         text-align: center;
-        width: 100%;
     }
 }
 

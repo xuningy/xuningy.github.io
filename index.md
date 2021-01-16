@@ -17,27 +17,32 @@ for Trajectory-based Teleoperation of Mobile Robots**]()
  **Xuning Yang**, Jasmine Cheng, and Nathan Michael  
 *Submitted to IEEE/RSJ International Conference on Robotics and Automation (ICRA), 2021*  
 <!-- \[[video](https://youtu.be/Tulya5WtB_Y)\] -->
-[<a class="link" href="#">gif<img class="preview" src="assets/gifs/icra21.gif"></a>]
+[<a class="gif-link" id="icra21">gif</a>]
+<img class="gif" id="icra21-gif" src="assets/gifs/icra21.gif"/>
 
 2. [**Assisted Mobile Robot Teleoperation with Intent-aligned Trajectories via Biased Incremental Action Sampling**](/papers/IROS20.pdf)  
  **Xuning Yang** and Nathan Michael  
 *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), October 2020*  
 \[[bibtex](bibtex/iros20.txt)\]
 \[[video presentation](https://youtu.be/Tulya5WtB_Y)\]
-[<a class="link" href="#">gif<img class="preview" src="assets/gifs/iros20.gif"></a>]
+[<a class="gif-link" id="iros20">gif</a>]
+<img class="gif" id="iros20-gif" src="assets/gifs/iros20.gif"/>
 
 3. [**Fast and Agile Vision-Based Flight with Teleoperation and Collision Avoidance on a Multirotor**](/papers/ISER18.pdf)  
 Alexander Spitzer\*, **Xuning Yang\***, John Yao, Aditya Dhawale, Kshitij Goel, Mosam Dabhi, Matt Collins, Curtis Boirum, and Nathan Michael  
 *International Symposium on Experimental Robotics (ISER), November 2018*  
 \[[bibtex](bibtex/iser18.txt)\]  \[[video](https://www.youtube.com/watch?v=_-KmGhP0HTQ)\]
-[<a class="link" href="#">sim<img class="preview" src="assets/gifs/vibworld.gif"></a>/<a class="link" href="#">real world<img class="preview" src="assets/gifs/RSS-banner-tunnel.gif"></a> gifs]
-<!-- [<a class="link" href="#">gif<img class="preview" src="/assets/gifs/user_study.gif"></a>] -->
+[<a class="gif-link" id="vibworld">sim</a>/<a class="gif-link" id="hsv">real</a> gifs]
+<img class="gif" id="vibworld-gif" src="assets/gifs/vibworld.gif"/>
+<img class="gif" id="hsv-gif" src="assets/gifs/RSS-banner-tunnel.gif"/>
+<!-- [<a class="gif" href="#">gif<img class="preview" src="/assets/gifs/user_study.gif"></a>] -->
 
 4.  [**Reactive Collision Avoidance using Real-Time Local Gaussian Mixture Model Maps**](/papers/IROS18.pdf)  
 Aditya Dhawale, **Xuning Yang**, and Nathan Michael  
 *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), October 2018*  
 \[[bibtex](bibtex/iros18.txt)\]
-[<a class="link" href="#">gif<img class="preview" src="assets/gifs/iros18.gif"></a>]
+[<a class="gif-link" id="iros18">gif</a>]
+<img class="gif" id="iros18-gif" src="assets/gifs/iros18.gif"/>
 
 5. [**Online adaptive teleoperation via motion primitives for mobile robots**](/papers/AURO18.pdf)  
 **Xuning Yang**, Ayush Agrawal, Koushil Sreenath, and Nathan Michael  
@@ -48,7 +53,8 @@ Aditya Dhawale, **Xuning Yang**, and Nathan Michael
 **Xuning Yang**, Koushil Sreenath, and Nathan Michael  
 *IEEE International Conference on Robotics and Automation (ICRA), May 2017*  
 \[[bibtex](bibtex/icra17.txt)\]
-[<a class="link" href="#">gif<img class="preview" src="assets/gifs/icra17.gif"></a>]
+[<a class="gif-link" id="icra17">gif</a>]
+<img class="gif" id="icra17-gif" src="assets/gifs/icra17.gif"/>
 
 7.  [**Online Adaptive Teleoperation via Incremental Intent Modeling**](/papers/HRI17-LBR.pdf)  
 **Xuning Yang**, Koushil Sreenath, and Nathan Michael  
@@ -63,4 +69,5 @@ Aditya Dhawale, **Xuning Yang**, and Nathan Michael
 ### Other projects
 
 1. In-place hover-to-hover flip of a quadrotor, featured in [Rapyuta Robotics Ltd. Teaser video](https://www.youtube.com/watch?v=zqp2Z2hbOFU-)  
-[<a class="link" href="#">gif<img class="preview" style="top:-100px" src="assets/gifs/flip_cropped.gif"></a>]
+[<a class="gif-link" id="flip">gif</a>]
+<img class="gif" id="flip-gif" src="assets/gifs/flip_cropped.gif"/>
