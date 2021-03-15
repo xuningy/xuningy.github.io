@@ -1,7 +1,10 @@
 <div class="navbar container">
       <a id="site-title" class="alignable pull-left"href="{{ site.url }}">{{ site.title }}</a>
       <br/>
-      <p id="site-subtitle" class="alignable pull-left" ><img src="/assets/loudspeaker.png" height="10" width="12"> juh-NAY YANG</p>
+      <p id="site-subtitle" class="alignable pull-left" >
+        <a href=""><img id="loudspeaker" src="/assets/loudspeaker-green.png" height="10" width="12"  onClick="document.getElementById('pronounciation').play(); return false;"></a>
+        juh-NAY YANG
+      </p>
     <ul id="navlist" class="alignable pull-right navbar-ul">
         {% for x in site.navbar %}
         <li class="alignable pull-left navbar-list">
@@ -19,3 +22,7 @@
 <div style="clear:both"></div>
 
 <hr>
+
+<audio id="pronounciation">
+<source src="/assets/name.mp3" type="audio/mpeg">
+</audio>

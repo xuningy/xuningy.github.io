@@ -5,6 +5,8 @@
 // Customization Variables
 
 $accent: #0eb077;
+$accentlight: rgba(14, 176, 119, 0.3);
+
 $inlinecodetext: #0a8f64;
 $inlinecodeborder: #CFE3DD;
 $inlinecodebg: #e9f2ef;
@@ -44,7 +46,8 @@ a {
 }
 a:hover {
     text-decoration: none;
-    text-shadow: 0 0 1px rgba(53,184,143,0.3);
+    color: $accentlight;
+    text-shadow: 0 0 1px rgba(30, 138, 100,0.3);
 }
 hr {
     border: none;
@@ -442,6 +445,17 @@ img[src*='#center'] {
     display: block;
     margin: auto;
 }
+
+#loudspeaker {
+    -webkit-filter: drop-shadow(0 0 1px rgba(58,57,57,0.25));
+    filter: drop-shadow(0 0 1px rgba(58,57,57,0.25));
+}
+
+#loudspeaker:hover {
+    -webkit-filter: drop-shadow(0 0 1px $accent);
+    filter: drop-shadow(0 0 1px $accent);
+}
+//
 
 //  typography
 
