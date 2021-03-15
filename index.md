@@ -4,25 +4,25 @@ layout: default
 
 <img class="profile-picture" src="{{site.baseurl}}/{{site.profile-picture}}">
 
-​I am a Ph.D. student in the [Robotics Institute](https://www.ri.cmu.edu/) at Carnegie Mellon University, working with Prof. Nathan Michael at the [Resilient Intelligent Systems Lab (RISLab)](https://www.rislab.org/). I obtained my B.A.Sc. in [Engineering Science](https://engsci.utoronto.ca/program/what-is-engsci/) with Honours from University of Toronto, with a major in [Aerospace Engineering](http://www.utias.utoronto.ca/) and a minor in Robotics and Mechatronics.
+​I am a Ph.D. candidate in the [Robotics Institute](https://www.ri.cmu.edu/) at Carnegie Mellon University. I obtained my B.A.Sc. in [Engineering Science](https://engsci.utoronto.ca/program/what-is-engsci/) with Honours from University of Toronto, with a major in [Aerospace Engineering](http://www.utias.utoronto.ca/) and a minor in Robotics and Mechatronics.
 
-My research interests include applying statistical learning techniques to control theory. More recently, my research has focused on online modeling and prediction of operator intent for human-in-the-loop control of autonomous mobile robots, and agile safe navigation in unknown environments.
+My research focuses on online modeling and prediction of operator intent for human-in-the-loop control of mobile robots, and agile safe navigation in unknown environments. My areas of interest include planning, control, human robot interaction and bayesian inference for human decision making.
 
 You can contact me at xuning at cmu dot edu.
 
 ### Publications
 
 1. [**An Intention Guided Hierarchical Trajectory Generation Framework
-for Trajectory-based Teleoperation of Mobile Robots**]()  
+for Trajectory-based Teleoperation of Mobile Robots**](/papers/icra21.pdf)  
  **Xuning Yang**, Jasmine Cheng, and Nathan Michael  
-*Submitted to IEEE/RSJ International Conference on Robotics and Automation (ICRA), 2021*  
+*International Conference on Robotics and Automation (ICRA), 2021*  
 <!-- \[[video](https://youtu.be/Tulya5WtB_Y)\] -->
 [<a class="gif-link" id="icra21">gif</a>]
 <img class="gif" id="icra21-gif" src="assets/gifs/icra21.gif"/>
 
 2. [**Assisted Mobile Robot Teleoperation with Intent-aligned Trajectories via Biased Incremental Action Sampling**](/papers/IROS20.pdf)  
  **Xuning Yang** and Nathan Michael  
-*IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), October 2020*  
+*International Conference on Intelligent Robots and Systems (IROS), October 2020*  
 \[[bibtex](bibtex/iros20.txt)\]
 \[[video presentation](https://youtu.be/Tulya5WtB_Y)\]
 [<a class="gif-link" id="iros20">gif</a>]
@@ -39,7 +39,7 @@ Alexander Spitzer\*, **Xuning Yang\***, John Yao, Aditya Dhawale, Kshitij Goel, 
 
 4.  [**Reactive Collision Avoidance using Real-Time Local Gaussian Mixture Model Maps**](/papers/IROS18.pdf)  
 Aditya Dhawale, **Xuning Yang**, and Nathan Michael  
-*IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), October 2018*  
+*International Conference on Intelligent Robots and Systems (IROS), October 2018*  
 \[[bibtex](bibtex/iros18.txt)\]
 [<a class="gif-link" id="iros18">gif</a>]
 <img class="gif" id="iros18-gif" src="assets/gifs/iros18.gif"/>
@@ -51,7 +51,7 @@ Aditya Dhawale, **Xuning Yang**, and Nathan Michael
 
 6. [**A Framework for Efficient Teleoperation via Online Adaptation**](/papers/ICRA17.pdf)  
 **Xuning Yang**, Koushil Sreenath, and Nathan Michael  
-*IEEE International Conference on Robotics and Automation (ICRA), May 2017*  
+*International Conference on Robotics and Automation (ICRA), May 2017*  
 \[[bibtex](bibtex/icra17.txt)\]
 [<a class="gif-link" id="icra17">gif</a>]
 <img class="gif" id="icra17-gif" src="assets/gifs/icra17.gif"/>
