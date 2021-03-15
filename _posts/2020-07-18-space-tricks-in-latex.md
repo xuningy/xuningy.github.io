@@ -72,9 +72,12 @@ Pretty self explanatory.
 
 The oldest trick in the book is `vspace`. Quite literally, you just have to put `\vspace{-1em}` or whatever unit of measure you fancy with a negative sign wherever you need the vertical white space reduced. However, this method doesn't always work. For other tricks, read on.
 
-### Footer
+### Footer and footnotes
+
+The *footer* and *footnotes* are two different objects: the *footer* refers to the bottom margin of the text, and the *footnotes* are only created if you use the `\footnotes` command. So, if you want a footnote that is very close to the text, reduce `\footins`, and if you want the text (including footnotes) to be very close to the bottom margin, reduce `\footskip`:
 ``` latex
-\setlength{\skip\footins}{0.5ex} % distance between text and footer
+\setlength{\footnotesep}{10.25pt} %distance between text and footnotes (same as \skip\footins)
+\setlength{\footskip}{0pt} %distance between text and footer
 ```
 
 ### List spacing
@@ -93,8 +96,10 @@ The oldest trick in the book is `vspace`. Quite literally, you just have to put 
 ### Equation spacing
 ``` latex
 % fix equation spacing before and after
-\setlength{\abovedisplayskip}{1pt}
-\setlength{\belowdisplayskip}{1pt}
+\setlength{\abovedisplayskip}{3pt} % for the align environment
+\setlength{\belowdisplayskip}{3pt} % for the align environment
+\setlength{\abovedisplayshortskip}{3pt} % for the equation environment
+\setlength{\belowdisplayshortskip}{3pt} % for the equation environment
 
 ```
 
@@ -109,20 +114,26 @@ To change these spaces:
 \setlength{\floatsep}{0pt}% Remove space between two floats
 \setlength{\textfloatsep}{0pt}% Remove space between top/bottom float and text
 \setlength{\intextsep}{0pt} % remove space between text and here
-\setlength{\tabcolsep}{4.5pt} % reduce horizontal table padding
+
 
 % for floats that have captions
 \setlength{\belowcaptionskip}{0.7em} % reduce space below captions
+```
+Note that these are for single column only. For IEEE conferences with the double column format, the corresponding ones are:
+
+``` latex
+\setlength{\dbltextfloatsep}{5pt} % remove distance between a float spanning both columns and the text
+\setlength{\dblfloatsep}{0pt} % remove distance between two floats spanning both columns
 ```
 
 ### Inside table spacing
 
 ``` latex
 % Change table row height (this is a factor representing the distance between two rows)
-\renewcommand{\arraystretch}{1}   %% 1 is default
+\setlength{\arraystretch}{1}   %% 1 is default
 
 % Change table column width (this is half the space between two columns)
-\renewcommand\tabcolsep{6pt}      %% 6pt is default
+\setlength{\tabcolsep}{4.5pt} % reduce horizontal table padding
 
 % Fix table caption distance to table
 \captionsetup{skip=5pt}           %% space between caption distance to table
