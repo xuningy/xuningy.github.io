@@ -12,10 +12,10 @@ You can contact me at xuning at cmu dot edu.
 
 ### Publications
 
-1. [**An Intention Guided Hierarchical Trajectory Generation Framework
-for Trajectory-based Teleoperation of Mobile Robots**](/papers/icra21.pdf)  
+1. [**An Intention Guided Hierarchical Framework for Trajectory-based Teleoperation of Mobile Robots**](/papers/icra21.pdf)  
  **Xuning Yang**, Jasmine Cheng, and Nathan Michael  
 *International Conference on Robotics and Automation (ICRA), 2021*  
+\[[bibtex](bibtex/icra21.txt)\]
 <!-- \[[video](https://youtu.be/Tulya5WtB_Y)\] -->
 [<a class="gif-link" id="icra21">gif</a>]
 <img class="gif" id="icra21-gif" src="assets/gifs/icra21.gif"/>
