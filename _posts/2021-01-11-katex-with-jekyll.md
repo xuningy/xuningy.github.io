@@ -1,5 +1,6 @@
 ---
 layout: post
+category: blog
 title: How to LaTeX in Jekyll using KaTeX
 snippet: An ultra simplified guide without requiring a MathJax to KaTeX conversion
 tags: [website, latex]

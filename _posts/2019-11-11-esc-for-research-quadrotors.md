@@ -1,5 +1,6 @@
 ---
 layout: post
+category: blog
 title: Comparison of Quadrotor ESCs for autonomous flight
 snippet: A comparison of ESC firmware, communication protocols and available models for building a quadrotor for precise motor control
 tags: [robotics, hardware]

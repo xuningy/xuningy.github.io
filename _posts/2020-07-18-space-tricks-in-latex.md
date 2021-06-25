@@ -1,5 +1,6 @@
 ---
 layout: post
+category: blog
 title: Space tricks in Latex
 snippet: How to adjust/shrink white spaces in latex documents for when you're just one line over the conference page limit
 tags: [latex]

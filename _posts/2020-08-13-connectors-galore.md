@@ -1,5 +1,6 @@
 ---
 layout: post
+category: blog
 title: Quadrotor connectors galore
 snippet: A short guide to wire connectors for UAVs, for interfacing with power/pixracer/ESCs/motors, etc.
 tags: [robotics, hardware]

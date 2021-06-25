@@ -1,5 +1,6 @@
 ---
 layout: post
+category: blog
 title: Building your credit history from nothing
 snippet: A guide on how to build your credit history from nothing for expats moving to the US.
 tags: [life]
