@@ -5,6 +5,9 @@ title: Installing librealsense for T265 on various compute platforms
 snippet: Attempting to install librealsense on various small compute platforms (Intel Aero UAV, Odroid XU4, Nvidia TX2)
 tags: [robotics, hardware]
 ---
+This work was done in collaboration with [Alex Spitzer](http://alexspitzer.com).
+
+-------------
 
 Librealsense Linux installation instructions can be found  [here](https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md). Check the installation page for OS/kernel compatibilities. 
 
@@ -155,4 +158,4 @@ After, feel free to install realsense-ros as usual. If you're using Ubuntu 18.04
 
 -------------
 
-Special thanks to [Aditya Dhawale](https://adityand.wordpress.com/), [Alex Spitzer](http://alexspitzer.com), and [Cherie Ho](http://cherieho.com) for enlightened conversations about this effort.
+Special thanks to [Aditya Dhawale](https://adityand.wordpress.com/) and [Cherie Ho](http://cherieho.com) for enlightened conversations about this effort.

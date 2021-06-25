@@ -108,11 +108,12 @@ Lastly, we can make this even more lightweight by adding a toggle on and off opt
 <head>
 
   ...
-
+  {% raw  %}
   {% if page.katex %}
   <!-- KaTeX -->
   <link rel="stylesheet" href="/assets/plugins/katex.0.11.1/katex.min.css">
   {% endif %}
+  {% endraw %}
 
 </head>
 ```

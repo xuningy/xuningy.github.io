@@ -5,6 +5,9 @@ title: Comparison of Quadrotor ESCs for autonomous flight
 snippet: A comparison of ESC firmware, communication protocols and available models for building a quadrotor for precise motor control
 tags: [robotics, hardware]
 ---
+This work was done in collaboration with [Alex Spitzer](http://alexspitzer.com), who co-wrote this post.
+
+-------------
 
 There are a lot of available quadrotor ESCs available on the market.
 However, when building your own quadrotor, you have to choose your ESCs carefully depending on if you're planning to fly RC or autonomously.
@@ -66,8 +69,3 @@ However, many ESC firmware doesn't allow direct sending of RPM commands, which c
 The ESCs for RC flights are less concerned about this, since the pilot is able to adjust the knobs as required to compensate.
 
 The downside with any BLHeli32-based ESC, which is made for the RC hobbyists, is that it does not have closed loop RPM mode, nor does it support a digital control interface (only DShot).
-
-
--------------
-
-This post is co-written with [Alex Spitzer](http://alexspitzer.com).

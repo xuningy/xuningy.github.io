@@ -20,7 +20,14 @@ You can contact me at xuning at cmu dot edu.
 [<a class="gif-link" id="icra21">gif</a>]
 <img class="gif" id="icra21-gif" src="assets/gifs/icra21.gif"/>
 
-2. [**Assisted Mobile Robot Teleoperation with Intent-aligned Trajectories via Biased Incremental Action Sampling**](/papers/IROS20.pdf)  
+2. [**An imminent collision monitoring system with safe stopping
+interventions for autonomous aerial flights**]()  
+Jasmine Cheng,  **Xuning Yang**, and Nathan Michael  
+*ICRA 2021 Workshop on "Resilient and Long-Term Autonomy for Aerial Robotic Systems", Spotlight Talk*  
+\[[bibtex](bibtex/icra21-ws.txt)\]
+<!-- \[[video](https://youtu.be/Tulya5WtB_Y)\] -->
+
+3. [**Assisted Mobile Robot Teleoperation with Intent-aligned Trajectories via Biased Incremental Action Sampling**](/papers/IROS20.pdf)  
  **Xuning Yang** and Nathan Michael  
 *International Conference on Intelligent Robots and Systems (IROS), October 2020*  
 \[[bibtex](bibtex/iros20.txt)\]
@@ -28,7 +35,7 @@ You can contact me at xuning at cmu dot edu.
 [<a class="gif-link" id="iros20">gif</a>]
 <img class="gif" id="iros20-gif" src="assets/gifs/iros20.gif"/>
 
-3. [**Fast and Agile Vision-Based Flight with Teleoperation and Collision Avoidance on a Multirotor**](/papers/ISER18.pdf)  
+4. [**Fast and Agile Vision-Based Flight with Teleoperation and Collision Avoidance on a Multirotor**](/papers/ISER18.pdf)  
 Alexander Spitzer\*, **Xuning Yang\***, John Yao, Aditya Dhawale, Kshitij Goel, Mosam Dabhi, Matt Collins, Curtis Boirum, and Nathan Michael  
 *International Symposium on Experimental Robotics (ISER), November 2018*  
 \[[bibtex](bibtex/iser18.txt)\]  \[[video](https://www.youtube.com/watch?v=_-KmGhP0HTQ)\]
@@ -37,34 +44,34 @@ Alexander Spitzer\*, **Xuning Yang\***, John Yao, Aditya Dhawale, Kshitij Goel, 
 <img class="gif" id="hsv-gif" src="assets/gifs/RSS-banner-tunnel.gif"/>
 <!-- [<a class="gif" href="#">gif<img class="preview" src="/assets/gifs/user_study.gif"></a>] -->
 
-4.  [**Reactive Collision Avoidance using Real-Time Local Gaussian Mixture Model Maps**](/papers/IROS18.pdf)  
+5.  [**Reactive Collision Avoidance using Real-Time Local Gaussian Mixture Model Maps**](/papers/IROS18.pdf)  
 Aditya Dhawale, **Xuning Yang**, and Nathan Michael  
 *International Conference on Intelligent Robots and Systems (IROS), October 2018*  
 \[[bibtex](bibtex/iros18.txt)\]
 [<a class="gif-link" id="iros18">gif</a>]
 <img class="gif" id="iros18-gif" src="assets/gifs/iros18.gif"/>
 
-5. [**Online adaptive teleoperation via motion primitives for mobile robots**](/papers/AURO18.pdf)  
+6. [**Online adaptive teleoperation via motion primitives for mobile robots**](/papers/AURO18.pdf)  
 **Xuning Yang**, Ayush Agrawal, Koushil Sreenath, and Nathan Michael  
 *Special Issue on Learning for Human-Robot Collaboration, Autonomous Robots, April 2018*  
 \[[bibtex](bibtex/auro18.txt)\]
 
-6. [**A Framework for Efficient Teleoperation via Online Adaptation**](/papers/ICRA17.pdf)  
+7. [**A Framework for Efficient Teleoperation via Online Adaptation**](/papers/ICRA17.pdf)  
 **Xuning Yang**, Koushil Sreenath, and Nathan Michael  
 *International Conference on Robotics and Automation (ICRA), May 2017*  
 \[[bibtex](bibtex/icra17.txt)\]
 [<a class="gif-link" id="icra17">gif</a>]
 <img class="gif" id="icra17-gif" src="assets/gifs/icra17.gif"/>
 
-7.  [**Online Adaptive Teleoperation via Incremental Intent Modeling**](/papers/HRI17-LBR.pdf)  
+8.  [**Online Adaptive Teleoperation via Incremental Intent Modeling**](/papers/HRI17-LBR.pdf)  
 **Xuning Yang**, Koushil Sreenath, and Nathan Michael  
 *Late Breaking Report, International Conference on Human-Robot Interaction (HRI), March 2017*  
 \[[bibtex](bibtex/hri17.txt)\]
 
-### Talks
+<!-- ### Talks
 
 1. Invited talk: Toward intuitive human controlled MAVs: motion primitives based teleoperation  
-*IROS 2018 workshop: Vision based Drones: What's Next?*
+*IROS 2018 workshop: Vision based Drones: What's Next?* -->
 
 ### Other projects
 

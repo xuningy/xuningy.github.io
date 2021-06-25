@@ -20,7 +20,7 @@ sass:
 
 navbar:
  - name: "cv"
-   link: "/Xuning_Yang_Resume.pdf"
+   link: "/Xuning_Yang_CV.pdf"
  - name: "blog"
    link: "/blog"
  - name: "github"
