@@ -144,24 +144,60 @@ $(document).ready(function() {
 				var split = filename.split(".");
 				var name = split[0];
 				$(this).attr('title',name);
+				// Xuning: Set caption to none if there isn't any
+				if(	!$(this).attr('caption'))
+					$(this).attr('caption', '')
+				// console.log(	$(this).attr('caption') );
 			}
 		}
 	});
+
+	// Xuning VERSION 1: Lightbox gallery WITH all the <a href> under the SAME <div>, no level skipping.
 	//remove the clicked lightbox
+	// $("body").on("click", ".lightbox", function(event){
+	// 	if($(this).hasClass('gallery')) {
+	// 		$(this).remove();
+	//
+	// 		// Scroll to the next item
+	// 		if($(event.target).attr('id')=='next') {
+	// 			//next item
+	// 			if($("a.gallery.current").nextAll("a.gallery:first").length) $("a.gallery.current").nextAll("a.gallery:first").click();
+	// 			else $("a.gallery.current").find("a.gallery").first().click();
+	// 		}
+	// 		else if ($(event.target).attr('id')=='prev') {
+	// 			//prev item
+	// 			if($("a.gallery.current").prevAll("a.gallery:first").length) $("a.gallery.current").prevAll("a.gallery:first").click();
+	// 			else $("a.gallery.current").find("a.gallery").last().click();
+	// 		}
+	// 		else {
+	// 			$("a.gallery").removeClass('gallery');
+	// 		}
+	// 	}
+	// 	else $(this).remove();
+	// });
+
+	// Xuning Version 2: Lightbox gallery WITH an image-specific div, inside a larger image gallery div.
 	$("body").on("click", ".lightbox", function(event){
 		if($(this).hasClass('gallery')) {
-
 			$(this).remove();
 
+			// Scroll to the next item
 			if($(event.target).attr('id')=='next') {
-				//next item
-				if($("a.gallery.current").nextAll("a.gallery:first").length) $("a.gallery.current").nextAll("a.gallery:first").click();
-				else $("a.gallery.current").parent().find("a.gallery").first().click();
+				// next item
+				if($("a.gallery.current").parent().nextAll().first().length) {
+					 $("a.gallery.current").parent().nextAll().first().children().click();
+				}
+				else {
+					// Directly go to the first image. search through the scrape-gallery to find a href's, then select the first element.
+					$("a.gallery.current").parent().parent().find("a[class*='lightbox-']").first().click();
+				}
 			}
 			else if ($(event.target).attr('id')=='prev') {
 				//prev item
-				if($("a.gallery.current").prevAll("a.gallery:first").length) $("a.gallery.current").prevAll("a.gallery:first").click();
-				else $("a.gallery.current").parent().find("a.gallery").last().click();
+				if($("a.gallery.current").parent().prevAll().first().length) $("a.gallery.current").parent().prevAll().first().children().click();
+				else {
+					$("a.gallery.current").parent().parent().find("a[class*='lightbox-']").last().click();
+				}
 			}
 			else {
 				$("a.gallery").removeClass('gallery');
@@ -177,9 +213,14 @@ $(document).ready(function() {
 		$('<div class="lightbox"><a id="close"></a><a id="next">&rsaquo;</a><a id="prev">&lsaquo;</a><div class="videoWrapperContainer"><div class="videoWrapper"><iframe src="https://www.youtube.com/embed/'+$(this).attr('data-id')+'?autoplay=1&showinfo=0&rel=0"></iframe></div></div></div>').appendTo('body');
 	});
 	//add the image lightbox on click
+	// $("a.lightbox-image").click(function(event){
+	// 	event.preventDefault();
+	// 	$('<div class="lightbox"><a id="close"></a><a id="next">&rsaquo;</a><a id="prev">&lsaquo;</a><div class="img" style="background: url('+$(this).attr('href').replace(/ /g,"%20")+') center center / contain no-repeat;" title="'+$(this).attr('title')+'" ><img src="'+$(this).attr('href')+'" alt="'+$(this).attr('title')+'" /></div><span>'+$(this).attr('title')+'</span></div>').appendTo('body');
+	// });
+	// Xuning: Modify this to display 'description' instead of 'title'
 	$("a.lightbox-image").click(function(event){
 		event.preventDefault();
-		$('<div class="lightbox"><a id="close"></a><a id="next">&rsaquo;</a><a id="prev">&lsaquo;</a><div class="img" style="background: url('+$(this).attr('href').replace(/ /g,"%20")+') center center / contain no-repeat;" title="'+$(this).attr('title')+'" ><img src="'+$(this).attr('href')+'" alt="'+$(this).attr('title')+'" /></div><span>'+$(this).attr('title')+'</span></div>').appendTo('body');
+		$('<div class="lightbox"><a id="close"></a><a id="next">&rsaquo;</a><a id="prev">&lsaquo;</a><div class="img" style="background: url('+$(this).attr('href').replace(/ /g,"%20")+') center center / contain no-repeat;" title="'+$(this).attr('title')+'" ><img src="'+$(this).attr('href')+'" alt="'+$(this).attr('caption')+'" /></div><span>'+$(this).attr('caption')+'</span></div>').appendTo('body');
 	});
 	//add the vimeo lightbox on click
 	$("body").on("click", "a.lightbox-vimeo", function(event){
@@ -187,17 +228,40 @@ $(document).ready(function() {
 		$('<div class="lightbox"><a id="close"></a><a id="next">&rsaquo;</a><a id="prev">&lsaquo;</a><div class="videoWrapperContainer"><div class="videoWrapper"><iframe src="https://player.vimeo.com/video/'+$(this).attr('data-id')+'/?autoplay=1&byline=0&title=0&portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></div></div>').appendTo('body');
 	});
 
+	// Xuning Version 1: Lightbox gallery WITH all the <a href> under the SAME <div>, no level skipping.
+	// $("body").on("click", "a[class*='lightbox-']", function(){
+	// 	var link_elements = $(this).parent().find("a[class*='lightbox-']");
+	// 	console.log( link_elements )
+	// 	console.log( link_elements.length )
+	// 	$(link_elements).removeClass('current');
+	// 	console.log( $(link_elements[i]) )
+	// 	for (var i=0; i<link_elements.length; i++) {
+	// 		if($(this).attr('href') == $(link_elements[i]).attr('href')) {
+	// 			$(link_elements[i]).addClass('current');
+	//
+	// 		}
+	// 	}
+	// 	if(link_elements.length>1) {
+	// 		$('.lightbox').addClass('gallery');
+	// 		$(link_elements).addClass('gallery');
+	// 	}
+	// });
+
+	// Xuning Version 2: Lightbox gallery WITH an image-specific div, inside a larger image gallery div.
 	$("body").on("click", "a[class*='lightbox-']", function(){
-		var link_elements = $(this).parent().find("a[class*='lightbox-']");
-		$(link_elements).removeClass('current');
-		for (var i=0; i<link_elements.length; i++) {
-			if($(this).attr('href') == $(link_elements[i]).attr('href')) {
-				$(link_elements[i]).addClass('current');
+		var img_elements = $(this).parent().parent().find("a[class*='lightbox-']");
+		var thumb_div_elements = $(img_elements).parent();
+		$(img_elements).removeClass('current');
+
+		for (var i=0; i < thumb_div_elements.length; i++) {
+			if($(this).attr('href') == $(img_elements[i]).attr('href')) {
+				$(img_elements[i]).addClass('current'); // add current to div class gallery-thumbnail-div.
+
 			}
 		}
-		if(link_elements.length>1) {
+		if(thumb_div_elements.length>1) {
 			$('.lightbox').addClass('gallery');
-			$(link_elements).addClass('gallery');
+			$(img_elements).addClass('gallery');
 		}
 	});
 

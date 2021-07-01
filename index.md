@@ -78,3 +78,15 @@ Aditya Dhawale, **Xuning Yang**, and Nathan Michael
 1. In-place hover-to-hover flip of a quadrotor, featured in [Rapyuta Robotics Ltd. Teaser video](https://www.youtube.com/watch?v=zqp2Z2hbOFU-)  
 [<a class="gif-link" id="flip">gif</a>]
 <img class="gif" id="flip-gif" src="assets/gifs/flip_cropped.gif"/>
+
+### Builds
+<div class="rowofposts">
+
+{% for post in site.posts %}
+  {% if post.category == "robot" %}
+
+      {% include postbox-nosnippet.html %}
+      {% endif %}
+    {% endfor %}
+
+</div>
