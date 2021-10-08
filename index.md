@@ -15,7 +15,7 @@ You can contact me at xuning at cmu dot edu.
 1. [**An Intention Guided Hierarchical Framework for Trajectory-based Teleoperation of Mobile Robots**](/papers/icra21.pdf)  
  **Xuning Yang**, Jasmine Cheng, and Nathan Michael  
 *International Conference on Robotics and Automation (ICRA), 2021*  
-\[[bibtex](bibtex/icra21.txt)\]
+\[[code](https://github.com/xuningy/planning_arch)\] \[[bibtex](bibtex/icra21.txt)\]
 <!-- \[[video](https://youtu.be/Tulya5WtB_Y)\] -->
 [<a class="gif-link" id="icra21">gif</a>]
 <img class="gif" id="icra21-gif" src="assets/gifs/icra21.gif"/>
@@ -30,7 +30,7 @@ Jasmine Cheng,  **Xuning Yang**, and Nathan Michael
 3. [**Assisted Mobile Robot Teleoperation with Intent-aligned Trajectories via Biased Incremental Action Sampling**](/papers/IROS20.pdf)  
  **Xuning Yang** and Nathan Michael  
 *International Conference on Intelligent Robots and Systems (IROS), October 2020*  
-\[[bibtex](bibtex/iros20.txt)\]
+\[[code](https://github.com/xuningy/motion_primitive_tree)\] \[[bibtex](bibtex/iros20.txt)\]
 \[[video presentation](https://youtu.be/Tulya5WtB_Y)\]
 [<a class="gif-link" id="iros20">gif</a>]
 <img class="gif" id="iros20-gif" src="assets/gifs/iros20.gif"/>
