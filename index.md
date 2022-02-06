@@ -4,24 +4,32 @@ layout: default
 
 <img class="profile-picture" src="{{site.baseurl}}/{{site.profile-picture}}">
 
-​I am a Ph.D. candidate in the [Robotics Institute](https://www.ri.cmu.edu/) at Carnegie Mellon University. I obtained my B.A.Sc. in [Engineering Science](https://engsci.utoronto.ca/program/what-is-engsci/) with Honours from University of Toronto, with a major in [Aerospace Engineering](http://www.utias.utoronto.ca/) and a minor in Robotics and Mechatronics.
+I received my Ph.D. from the [Robotics Institute](https://www.ri.cmu.edu/), Carnegie Mellon University in Jan 2022. I obtained my B.A.Sc. in [Engineering Science](https://engsci.utoronto.ca/program/what-is-engsci/) with Honours from University of Toronto, with a major in [Aerospace Engineering](http://www.utias.utoronto.ca/) and a minor in Robotics and Mechatronics.
 
-My research focuses on online modeling and prediction of operator intent for human-in-the-loop control of mobile robots, and agile safe navigation in unknown environments. My areas of interest include planning, control, human robot interaction and bayesian inference for human decision making.
+My work focuses on human intention modeling and prediction for continuous human-in-the-loop control of mobile robots, and agile safe navigation in unknown and unstructured environments. My areas of interest include motion planning, dynamics and control, human robot interaction (HRI), human intention modeling, and bayesian inference for human decision making.
 
-You can contact me at xuning at cmu dot edu.
+You can contact me at xuningy at gmail dot com. I am actively seeking opportunities.
+
+### Thesis
+1. **Human-in-the-loop Planning for Mobile Robots**  
+*PhD Thesis, Robotics Institute, Carnegie Mellon University, Jan 2022*   
+\[[document to come]()\]
+\[[talk](https://youtu.be/0qSzzafpmxo)\]
+
 
 ### Publications
 
 1. [**An Intention Guided Hierarchical Framework for Trajectory-based Teleoperation of Mobile Robots**](/papers/icra21.pdf)  
  **Xuning Yang**, Jasmine Cheng, and Nathan Michael  
 *International Conference on Robotics and Automation (ICRA), 2021*  
-\[[code](https://github.com/xuningy/planning_arch)\] \[[bibtex](bibtex/icra21.txt)\]
-<!-- \[[video](https://youtu.be/Tulya5WtB_Y)\] -->
+\[[bibtex](bibtex/icra21.txt)\]
+\[[code](https://github.com/xuningy/planning_arch)\]
+\[[talk](https://youtu.be/XNVsO4b2sw4)\]
 [<a class="gif-link" id="icra21">gif</a>]
 <img class="gif" id="icra21-gif" src="assets/gifs/icra21.gif"/>
 
 2. [**An imminent collision monitoring system with safe stopping
-interventions for autonomous aerial flights**]()  
+interventions for autonomous aerial flights**](/papers/icra21-ws.pdf)  
 Jasmine Cheng,  **Xuning Yang**, and Nathan Michael  
 *ICRA 2021 Workshop on "Resilient and Long-Term Autonomy for Aerial Robotic Systems", Spotlight Talk*  
 \[[bibtex](bibtex/icra21-ws.txt)\]
@@ -30,8 +38,8 @@ Jasmine Cheng,  **Xuning Yang**, and Nathan Michael
 3. [**Assisted Mobile Robot Teleoperation with Intent-aligned Trajectories via Biased Incremental Action Sampling**](/papers/IROS20.pdf)  
  **Xuning Yang** and Nathan Michael  
 *International Conference on Intelligent Robots and Systems (IROS), October 2020*  
-\[[code](https://github.com/xuningy/motion_primitive_tree)\] \[[bibtex](bibtex/iros20.txt)\]
-\[[video presentation](https://youtu.be/Tulya5WtB_Y)\]
+\[[bibtex](bibtex/iros20.txt)\] \[[code](https://github.com/xuningy/motion_primitive_tree)\]
+\[[talk](https://youtu.be/Tulya5WtB_Y)\]
 [<a class="gif-link" id="iros20">gif</a>]
 <img class="gif" id="iros20-gif" src="assets/gifs/iros20.gif"/>
 
@@ -79,7 +87,8 @@ Aditya Dhawale, **Xuning Yang**, and Nathan Michael
 [<a class="gif-link" id="flip">gif</a>]
 <img class="gif" id="flip-gif" src="assets/gifs/flip_cropped.gif"/>
 
-### Builds
+### Robots
+I enjoy building robots. Some of the robots that are near and dear to my heart are listed here.
 <div class="rowofposts">
 
 {% for post in site.posts %}
