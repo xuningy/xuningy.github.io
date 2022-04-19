@@ -4,11 +4,11 @@ layout: default
 
 <img class="profile-picture" src="{{site.baseurl}}/{{site.profile-picture}}">
 
-I received my Ph.D. from the [Robotics Institute](https://www.ri.cmu.edu/), Carnegie Mellon University in Jan 2022. I obtained my B.A.Sc. in [Engineering Science](https://engsci.utoronto.ca/program/what-is-engsci/) with Honours from University of Toronto, with a major in [Aerospace Engineering](http://www.utias.utoronto.ca/) and a minor in Robotics and Mechatronics.
+Hi! I am a Research Scientist in the [Robotics Research Lab](https://www.nvidia.com/en-us/research/robotics/) at NVIDIA Research led by Dieter Fox. Previously, I received my Ph.D. from the [Robotics Institute](https://www.ri.cmu.edu/) at Carnegie Mellon University. I obtained my B.A.Sc. in [Engineering Science](https://engsci.utoronto.ca/program/what-is-engsci/) from University of Toronto, with a major in [Aerospace Engineering](http://www.utias.utoronto.ca/) and a minor in Robotics and Mechatronics.
 
-My work focuses on human intention modeling and prediction for continuous human-in-the-loop control of mobile robots, and agile safe navigation in unknown and unstructured environments. My areas of interest include motion planning, dynamics and control, human robot interaction (HRI), human intention modeling, and bayesian inference for human decision making.
+I am interested in reasoning about human intention and behavior given arbitrary task spaces for the purposes of motion planning. Previously, I worked on human intention modeling and prediction for continuous human-in-the-loop control of mobile robots, and agile safe navigation in unknown and unstructured environments.
 
-You can contact me at xuningy at gmail dot com. I am actively seeking opportunities.
+You can contact me at xuningy at gmail dot com.
 
 ### Thesis
 1. [**Human-in-the-loop Planning for Mobile Robots**  ](https://www.ri.cmu.edu/publications/human-in-the-loop-planning-of-mobile-robots/)   
