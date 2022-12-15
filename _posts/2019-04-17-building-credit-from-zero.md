@@ -12,6 +12,8 @@ Before we start, you should probably have some way of paying off your bills with
 
 Here we go--
 
+(Last Updated 12/2022)
+
 -------------
 
 ### Prerequisites
@@ -48,7 +50,7 @@ At some point, Discover will refund you your security deposit (woohoo! unexpecte
 #### Step 2. Easy intro cards that have good benefits
 Here's where you can begin shopping around for cards, but you're still limited. At this point, you want to look at where your max spending goes, and you want to apply for a card that will allow you to maximize rewards in that category.
 
-- First thing you need to do, is change your Discover card to a [Discover it Cash Back](https://www.discover.com/credit-cards/cash-back/it-card.html?ICMPGN=ACQ_HNAV_ALL_CC_DIT_CARD) card. This is a 5% rotating category card, and you get 5% back in rotating categories each quarter.
+- First thing you need to do, is change your Discover card to a [Discover it Cash Back](https://refer.discover.com/s/XUNING7) card. This is a 5% rotating category card, and you get 5% back in rotating categories each quarter.
 - Second thing: Sign up for Credit Karma (or Credit Sesame) and monitor your credit!
 
 Now, you'll likely want to apply for a low-risk, no annual fee card. Some classic examples with targeted categories include:
@@ -59,9 +61,9 @@ Now, you'll likely want to apply for a low-risk, no annual fee card. Some classi
 All purchases:
 
 - [Citi DoubleCash](https://www.citi.com/credit-cards/credit-card-details/citi.action?ID=citi-double-cash-credit-card) 1% when you purchase, 1% when you pay (effectively 2%)
-- [Capital One Quicksilver](https://www.capitalone.com/credit-cards/quicksilver/) 1.5% back everything unlimited, $150 Bonus/$500 Spend
+- [Capital One Quicksilver](https://capital.one/3uVWefU) 1.5% back everything unlimited, $200 Bonus/$500 Spend
 
-Notice how I didn't mention any Chase cards on here, just because Chase is notorious for having their own credit rating system (not the listed 3) and one of their binary factors for approving/rejecting is "Have you had credit for at least two years?".
+Notice how I didn't mention any Chase cards on here, just because Chase is notorious for having their own credit rating system (not the listed 3) and one of their binary factors for approving/rejecting is "Have you had credit for at least two years?". Although, if you've had credit for 2 years, I would recommend skipping straight to the Chase cards!!!
 
 <div class="tip">
 <b>Travel</b>
@@ -76,10 +78,12 @@ If you need to travel, you probably need a no foreign transaction fee card. Almo
 #### Step 3. Get to know a few more cards
 After one of two of the above cards, you want to upgrade to a few more nicer benefit cards. Assuming you've had credit for one, one and a half years at this point, Here's where you can look into having some nicer (annual fee) cards, or some other cards that may be harder to apply for.
 
-Some nice no-annual fee, cash-back  cards that I like:
+Some nice no-annual fee, cash-back cards that I like:
 
-- [Barclays Uber Visa card](https://cards.barclaycardus.com/banking/cards/uber-visa-card/) 4% back on dining, 3% back airfare, hotels, airbnbs, 2% back online shopping, phone insurance, $50 subscription credit, and $100/$500 Bonus/Spend. **(Update 08/17/2020: this card is no longer offering these benefits, so I would recommend the Capital One Savor One instead.)**
-- [Chase Freedom]() 5% back on rotating categories or the [Chase Freedom Unlimited]() 1.5% back everything **(Update 09/09/2020: The Chase Freedom is discontinued and in its place is the Chase Freedom Flex (A mastercard). It offers the same 5% cash back, and from what it looks like in the near future, it will also offer 3% back on restaurants, 3% drugstores, all for no annual fee!)**
+- [Chase Freedom Flex](https://www.referyourchasecard.com/18o/NS51LKOK8M) 5% back on rotating categories, 3% back on restaurants, 3% drugstores, all for no annual fee!
+- [Chase Freedom Unlimited](https://www.referyourchasecard.com/18o/NS51LKOK8M) 1.5% back everything, 3% back on restaurants, 3% on drugstores, also no annual fee!
+
+Notice the benefits on these no-annual fee cards blows the other ones out of the water. Highly recommend.
 
 <div class="tip">
 <b>Chase cards</b>
@@ -108,15 +112,20 @@ Each of these has their own set of <a href="https://wallethub.com/edu/cc/visa-vs
 #### Step 4. Graduate to some premium reward cards
 At this point, you've had 2+ years of credit history, your score is comfortably sitting above 750+, and you're looking to maximize your rewards. Most of the premium cards has reward in the form of miles, but if you don't travel a lot, you might want to look into some other cards. Since you're looking into a premium card, they usually have an annual fee associated with it. Some of the most talked about ones are:
 
-For travel rewards, definitely the famous Chase Sapphire reserve. So many people I know rave about it, which is kind of ridiculous considering it is a *credit card*. It does have nice benefits:
-- [Chase Sapphire Reserve](https://creditcards.chase.com/rewards-credit-cards/chase-sapphire-reserve) $300 Travel credit, 3x points travel dining worldwide, PriorityPass lounge passes, primary coverage for Auto Collision Damage Waiver, 50k bonus points, $450 AF. Even though it's a $450 AF, you get $300 travel credit as soon as you book a flight with it, so it's technically $150 AF. **(Update 08/17/2020: As of 02/2020, the AF has been changed to $550 with other benefits such as 10x points on Lyft, 1 year complimentary Lyft Pink, a free year of DashPass, and $120 DoorDash credit.)**
-- If that's too much, similar benefits are provided by the [Chase Sapphire Preferred](https://creditcards.chase.com/rewards-credit-cards/chase-sapphire-preferred) 2x points travel dining worldwide, primary coverage for Auto Collision Damage Waiver, 60k bonus points, $95 AF.
-- The [American Express Platinum Card](https://www.americanexpress.com/us/credit-cards/card/platinum/?eep=25330&linknav=US-Acq-Shop-Consumer-CategoryTravelRewardsCards-Prospect-CardLink-Platinum) is one that is comparable to CSR, but if you read the fine lines, it may not be worth it.
+- [Chase Sapphire Preferred](https://www.referyourchasecard.com/6f/9GBSYLNMAQ)  3x back on dining worldwide, 3x back groceries, 3x back on streaming, 5x back on travel through Chase. Also, this card provides primary coverage for Auto Collision Damage Waiver so it's amazing if you rent cars. 60k-80k bonus points which is worth a round trip to Europe! $95 AF.
+- [Chase Sapphire Reserve](https://creditcards.chase.com/rewards-credit-cards/chase-sapphire-reserve) $300 Travel credit, 3x points travel dining worldwide, PriorityPass lounge passes, primary coverage for Auto Collision Damage Waiver, 50k bonus points, $550 AF. Even though it's $550, you get $300 travel credit as soon as you book a flight with it, so it's technically $250 AF. However, all the other benefits are the same as the Preferred.
+- [American Express Gold](https://americanexpress.com/en-us/referral/XUNINYP7Ea?xl=cp10a1) 4x back on dining, 4x back on groceries, plus an annual $120 food delivery credit, $120 Uber credit, 60k-90k points sign-up bonus (~$1000 in travel). $250 Annual Fee, although really $10 if you use food delivery/Uber. The bonus varies, but you tend to get a better bonus if you use [the referral link](https://americanexpress.com/en-us/referral/XUNINYP7Ea?xl=cp10a1).
+- [American Express Platinum Card](https://www.americanexpress.com/us/credit-cards/card/platinum/?eep=25330&linknav=US-Acq-Shop-Consumer-CategoryTravelRewardsCards-Prospect-CardLink-Platinum) is one that is comparable to CSR in the Amex family, but if you read the fine lines, it may not be worth it.
 
 
 Cash back:
 
 - [Capital One Savor](https://www.capitalone.com/credit-cards/savor-dining-rewards/) 4% dining & entertainment, 2% grocery, free Postmates Unlimited for 1 year, 8% back on Vivid Seats til May 2020, $500/$3k Bonus, $95 AF.
+
+Travel:
+
+- [Capital One Venture X](https://www.capitalone.com/credit-cards/venture-x/) $300 annual credit, $100 global entry credit, 10k miles bonus every year, 75k miles sign-up bonus. $395 Annual Fee, but with lots of miles back, lots of fancy lounges, great travel card if you're trying to maximize that domain!
+
 
 Basically at this point you're on your own for the rest of your credit journey! If you're interested in churning, [r/churning](https://www.reddit.com/r/churning/) has an extensive [wiki](https://www.reddit.com/r/churning/wiki/index) and a list of [links](https://www.reddit.com/r/churning/wiki/usefullinks), and I personally enjoy [Doctor Of Credit](https://www.doctorofcredit.com/) as a straight-forward, no-bs blog on credit card updates.
 
@@ -130,3 +139,15 @@ Basically at this point you're on your own for the rest of your credit journey! 
 <li>Don't close any credit cards! If you don't want to pay annual fee on a card, downgrade it to a no fee card. You should be able to do this, but call the bank first. </li>
 </ul>
 </div>
+
+### Referral bonuses!
+
+If you enjoyed this post and want some bonuses when signing up for credit cards, feel free to use my referral links! You tend to get better (and sometimes more) bonuses using referral links. Here's a summary of the cards I mentioned that I would highly recommend. Click on the links to apply.
+
+1. [Discover It Cash Back](https://refer.discover.com/s/XUNING7) 1st year cash back match, + an extra $50 through the [referral link](https://refer.discover.com/s/XUNING7). No annual fee!
+2. [Capital One Quicksilver](https://capital.one/3uVWefU) $200 Bonus/$500 Spend. No annual fee!
+3. [American Express Blue Cash Everyday](https://americanexpress.com/en-us/referral/XUNINYzJAR?xl=cp10a1) $200 OR $250 Bonus/$2000 spend. No annual fee! The bonus will either be $200 if you sign up through the website, and $250 if you use [the referral link](https://americanexpress.com/en-us/referral/XUNINYzJAR?xl=cp10a1).
+4. [American Express Gold](https://americanexpress.com/en-us/referral/XUNINYP7Ea?xl=cp10a1) 60k-90k points sign-up bonus (~$1000 in travel). The bonus varies, but you tend to get a better bonus than the public if you use [the referral link](https://americanexpress.com/en-us/referral/XUNINYP7Ea?xl=cp10a1).
+5. [Chase Freedom Flex](https://www.referyourchasecard.com/18o/NS51LKOK8M) $200 Bonus/$500 Spend + 5% grocery bonus.
+6. [Chase Freedom Unlimited](https://www.referyourchasecard.com/18o/NS51LKOK8M) $200 Bonus/$500 Spend + 5% grocery bonus.
+7. [Chase Sapphire Preferred](https://www.referyourchasecard.com/6f/9GBSYLNMAQ) 60k-80k Bonus (~$1000 in travel). The bonus varies, but you tend to get a better bonus if you use the referral link.
