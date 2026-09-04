@@ -1,0 +1,25 @@
+<nav class="navbar container" aria-label="Main navigation">
+    <div class="navbar-brand">
+        <a id="site-title" href="{{ site.url }}{{ site.baseurl }}/">{{ site.title }}</a>
+        <p id="site-subtitle">
+            <a href="#" title="Click to hear audio!" aria-label="Play name pronunciation"
+               onclick="document.getElementById('pronounciation').play(); return false;">
+                <img id="loudspeaker" src="{{ site.baseurl }}/assets/loudspeaker-green.png"
+                     height="10" width="12" alt="">
+            </a>
+            juh-NAY YANG
+        </p>
+    </div>
+
+    <ul id="navlist" class="navbar-ul">
+        {% for x in site.navbar %}
+        <li class="navbar-list">
+            <a href="{{ x.link }}">{{ x.name }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</nav>
+
+<audio id="pronounciation" preload="none">
+    <source src="{{ site.baseurl }}/assets/name.mp3" type="audio/mpeg">
+</audio>

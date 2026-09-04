@@ -1,0 +1,35 @@
+title: Jenai Xuning Yang
+author: Jenai Xuning Yang
+subtitle: PhD Candidate in Robotics
+
+google_analytics: G-ZEFRYNXSX4
+
+url:
+baseurl:
+
+footer_url:
+footer_text: "Copyright © 2021 Jenai Xuning Yang"
+
+profile-picture: assets/profile.jpg
+favicon_location:
+
+permalink: /:categories/:year-:month-:day-:title/
+sass:
+    style: compressed
+    sass_dir: css
+
+navbar:
+ - name: "blog"
+   link: "/blog"
+ - name: "github"
+   link: "https://github.com/xuningy"
+ - name: "google scholar"
+   link: "https://scholar.google.com/citations?hl=en&user=hM9EtNwAAAAJ"
+ - name: "linkedin"
+   link: "https://www.linkedin.com/in/xuningyang"
+ - name: "x"
+   link: "https://x.com/xuningy"
+
+markdown: kramdown
+kramdown:
+  math_engine: katex

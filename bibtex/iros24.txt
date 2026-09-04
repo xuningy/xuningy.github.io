@@ -1,0 +1,6 @@
+@inproceedings{Walker2024fasttele,
+  title={Fast Explicit-Input Assistance for Teleoperation in Clutter},
+  author={Nick Walker and Xuning Yang and Animesh Garg and Maya Cakmak and Dieter Fox and Claudia P{\'e}rez-D'Arpino},
+  booktitle={2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  year={2024}
+}

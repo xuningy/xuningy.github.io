@@ -1,0 +1,6 @@
+@article{Yang2025robeval,
+  title={Robot Policy Evaluation for Sim-to-Real Transfer: A Benchmarking Perspective},
+  author={Xuning Yang and Clemens Eppner and Jonathan Tremblay and Dieter Fox and Stan Birchfield and Fabio Ramos},
+  journal={arXiv preprint arXiv:2508.11117},
+  year={2025}
+}

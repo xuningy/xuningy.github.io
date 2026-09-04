@@ -1,0 +1,7 @@
+_drafts/
+_site/
+.DS_Store
+.jekyll-cache
+.bundle/
+vendor/
+not_used/

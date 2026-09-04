@@ -1,0 +1,6 @@
+@article{Atreya2025roboarena,
+  title={RoboArena: Distributed Real-World Evaluation of Generalist Robot Policies},
+  author={Pranav Atreya and Karl Pertsch and Tony Lee and Moo Jin Kim and Arhan Jain and Artur Kuramshin and Clemens Eppner and Cyrus Neary and Edward Hu and Fabio Ramos and Jonathan Tremblay and Kanav Arora and Kirsty Ellis and Luca Macesanu and Marcel Torne Villasevil and Matthew Leonard and Meedeum Cho and Ozgur Aslan and Shivin Dass and Jie Wang and William Reger and Xingfang Yuan and Xuning Yang and Abhishek Gupta and Dinesh Jayaraman and Glen Berseth and Kostas Daniilidis and Roberto Martin-Martin and Youngwoon Lee and Percy Liang and Chelsea Finn and Sergey Levine},
+  journal={arXiv preprint arXiv:2506.18123},
+  year={2025}
+}

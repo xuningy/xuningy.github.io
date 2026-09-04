@@ -1,0 +1,5 @@
+source "https://rubygems.org"
+gem "jekyll", "~> 4.3"
+gem "kramdown-parser-gfm"
+gem "kramdown-math-katex"
+gem "webrick"
