@@ -1,0 +1,238 @@
+# Publications. Entries render via _includes/paper.html.
+# - `selected: true` shows the entry on the home page; papers.md lists everything.
+# - `highlight: true` renders the entry on a soft tinted card.
+# - `status` adds a gray pill after the venue, e.g. "In submission to ICLR 2027".
+# - Put a trailing "*" on a name for equal-contribution marks and explain it in `note`.
+# - `thumb` is an image path under the site root; `video` is an mp4 path (thumb then acts as poster).
+#   Omit both to render a text placeholder.
+
+- key: astranomy26
+  title: "Astranomy: An Empirical Study of GPT-6 Astra as a Native Robot Policy"
+  url: https://research.nvidia.com/labs/srl/projects/astranomy/
+  authors: [Jenai Xuning Yang, Ashna Khetan, Shun Zhang]
+  venue: Tech Report 2026
+  video: assets/papers/astra.mp4
+  thumb: assets/papers/astra.jpg
+  links:
+    - {label: project, url: https://research.nvidia.com/labs/srl/projects/astranomy/}
+    - {label: gallery, url: https://research.nvidia.com/labs/srl/projects/astranomy/gallery.html}
+  description: >-
+    Can a general-purpose frontier model act as a robot policy with no robot-specific finetuning? We
+    test GPT-6 Astra in three roles on RoboLab-120: generating actions directly, running as an agent in
+    a persistent coding session, and monitoring a separate robot foundation model. The agentic setup
+    reaches 74.8% success but at far higher token cost, and direct inference is slow at about 18.6
+    seconds per call.
+  selected: true
+
+- key: arc26
+  title: "ARC: A Reasoning Recipe for Robot Foundation Models"
+  url: https://arc-robot-reasoning.github.io/
+  authors: [Gokul Puthumanaillam, Tao Sun, Elie Aljalbout, Moritz Reuss, Zhaoshuo Li, Fabio Ramos, "Ankit Goyal*", "Jenai Xuning Yang*"]
+  note: "* equal advising"
+  venue: arXiv 2026
+  status: In submission to ICLR 2027
+  highlight: true
+  video: assets/papers/arc.mp4
+  thumb: assets/papers/arc-poster.jpg
+  links:
+    - {label: paper, url: https://arc-robot-reasoning.github.io/assets/paper/arc-paper.pdf}
+    - {label: project, url: https://arc-robot-reasoning.github.io/}
+  description: >-
+    ARC improves robot foundation models by grounding reasoning in the robot's next action and its
+    expected effects. It automatically labels existing demonstrations with reasoning traces and adapts
+    pretrained policies to use them, achieving state-of-the-art results on RoboLab-120 and MolmoSpaces
+    without new robot demonstrations or foundation-scale training.
+  selected: true
+
+- key: robolab26
+  title: "RoboLab: A High-Fidelity Simulation Benchmark for Analysis of Task Generalist Policies"
+  url: https://research.nvidia.com/labs/srl/projects/robolab/
+  authors: [Jenai Xuning Yang, Rishit Dagli, Alex Zook, Hugo Hadfield, Ankit Goyal, Stan Birchfield, Fabio Ramos, Jonathan Tremblay]
+  venue: RSS 2026
+  highlight: true
+  video: assets/papers/robolab.mp4
+  thumb: assets/papers/robolab.jpg
+  links:
+    - {label: paper, url: https://arxiv.org/pdf/2604.09860}
+    - {label: code, url: https://github.com/NVlabs/RoboLab/}
+    - {label: project, url: https://research.nvidia.com/labs/srl/projects/robolab/}
+    - {label: bibtex, url: bibtex/robolab26.txt}
+  description: >-
+    RoboLab is a high-fidelity simulation platform for evaluating robot policies trained on real-world
+    data. Fast scene and task generation keeps the benchmark from saturating, and the 120-task suite
+    separately measures visual, relational, and procedural generalization.
+  selected: true
+
+- key: cosmos3
+  title: "Cosmos 3: Omnimodal World Models for Physical AI"
+  url: https://research.nvidia.com/labs/cosmos-lab/cosmos3/
+  authors: [NVIDIA Cosmos3 Team]
+  venue: arXiv 2026
+  video: assets/papers/cosmos3.mp4
+  thumb: assets/papers/cosmos3.jpg
+  links:
+    - {label: paper, url: https://arxiv.org/abs/2606.02800}
+    - {label: code, url: https://github.com/nvidia/cosmos}
+    - {label: models, url: https://huggingface.co/collections/nvidia/cosmos3}
+    - {label: project, url: https://research.nvidia.com/labs/cosmos-lab/cosmos3/}
+  description: >-
+    Cosmos 3 is an open omnimodal world model that unifies reasoning, generation, simulation, and
+    robot action across text, images, video, audio, and actions in a single model.
+  selected: true
+
+- key: volo26
+  title: "VoLo: A Physical Orchestrator for Open-Vocabulary Long-Horizon Manipulation"
+  url: https://chicychen.github.io/VoLo/
+  authors: [Siyi Chen, Hugo Hadfield, Alex Zook, Mikaela Angelina Uy, Chan Hee Song, Erwin Coumans, Jenai Xuning Yang, Faisal Ladhak, Qing Qu, Stan Birchfield, Jonathan Tremblay, Valts Blukis]
+  venue: CoRL 2026
+  thumb: assets/papers/volo.png
+  links:
+    - {label: paper, url: https://arxiv.org/abs/2606.07723}
+    - {label: project, url: https://chicychen.github.io/VoLo/}
+  description: >-
+    VoLo frames long-horizon manipulation as physical orchestration: a VLM agent plans, monitors, and
+    recovers by steering a VLA or world-action model as an interruptible tool alongside perception and
+    grasp primitives. The accompanying RoboVoLo benchmark covers 126 tasks with failure-mode diagnostics.
+  selected: true
+
+- key: adavomp26
+  title: "AdaVoMP: Adaptive Volumetric Mechanical Property Fields Invariant to Resolution"
+  url: https://research.nvidia.com/labs/sil/projects/adavomp/
+  authors: [Rishit Dagli, Donglai Xiang, Vismay Modi, Jenai Xuning Yang, Gavriel State, David I.W. Levin, Masha Shugrina]
+  venue: ICML 2026
+  video: assets/papers/adavomp.mp4
+  thumb: assets/papers/adavomp.jpg
+  links:
+    - {label: paper, url: https://arxiv.org/abs/2606.18231}
+    - {label: project, url: https://research.nvidia.com/labs/sil/projects/adavomp/}
+  description: >-
+    AdaVoMP predicts dense, spatially varying Young's modulus, Poisson's ratio, and density for 3D
+    objects. A sparse adaptive voxel structure with an autoregressive sparse transformer reaches far
+    higher resolution than prior work while improving accuracy and memory efficiency.
+
+- key: vla0
+  title: "VLA-0: Building State-of-the-Art VLAs with Zero Modification"
+  url: https://vla0.github.io/
+  authors: [Ankit Goyal, Hugo Hadfield, Jenai Xuning Yang, Valts Blukis, Fabio Ramos]
+  venue: arXiv 2025
+  video: assets/papers/vla0.mp4
+  links:
+    - {label: paper, url: https://arxiv.org/abs/2510.13054}
+    - {label: code, url: https://github.com/NVlabs/vla0}
+    - {label: project, url: https://vla0.github.io/}
+  description: >-
+    VLA-0 turns a vision-language model into a robot policy by having it emit actions as plain text
+    integers, with no changes to its vocabulary or architecture. It is the strongest model on LIBERO
+    among those without large-scale robot pretraining and transfers to real SO-100 tasks.
+  selected: true
+
+- key: robeval25
+  title: "Robot Policy Evaluation for Sim-to-Real Transfer: A Benchmarking Perspective"
+  url: https://arxiv.org/abs/2508.11117
+  authors: [Jenai Xuning Yang, Clemens Eppner, Jonathan Tremblay, Dieter Fox, Stan Birchfield, Fabio Ramos]
+  venue: RSS 2025 Workshop
+  thumb: assets/papers/robeval.jpg
+  links:
+    - {label: paper, url: https://arxiv.org/pdf/2508.11117}
+    - {label: bibtex, url: bibtex/robeval25.txt}
+  description: >-
+    A position paper arguing that benchmarks for generalist manipulation policies should predict
+    sim-to-real transfer. We propose high-fidelity visual simulation, graded difficulty and perturbation
+    sweeps, and explicit measurement of how closely simulated rankings match real-world performance.
+
+- key: roboarena25
+  title: "RoboArena: Distributed Real-World Evaluation of Generalist Robot Policies"
+  url: https://arxiv.org/abs/2506.18123
+  authors: [RoboArena Team]
+  venue: RSS 2025
+  video: assets/papers/roboarena.mp4
+  thumb: assets/papers/roboarena.jpg
+  links:
+    - {label: paper, url: https://arxiv.org/pdf/2506.18123}
+    - {label: project, url: https://robo-arena.github.io/}
+    - {label: bibtex, url: bibtex/roboarena25.txt}
+  description: >-
+    RoboArena evaluates generalist robot policies by having many independent evaluators run blinded
+    head-to-head comparisons on tasks and environments of their choosing, then aggregating the results
+    into a ranking. Across seven institutions and over 600 real-robot trials, it ranks policies more
+    accurately than centralized evaluation.
+
+- key: itps25
+  title: "Inference-Time Policy Steering through Human Interactions"
+  url: https://yanweiw.github.io/itps/
+  authors: [Yanwei Wang, Lirui Wang, Yilun Du, Balakumar Sundaralingam, Jenai Xuning Yang, Yu-Wei Chao, Claudia Pérez-D'Arpino, Dieter Fox, Julie Shah]
+  venue: ICRA 2025
+  video: assets/papers/itps.mp4
+  thumb: assets/papers/itps.jpg
+  links:
+    - {label: paper, url: https://arxiv.org/pdf/2411.16627}
+    - {label: project, url: https://yanweiw.github.io/itps/}
+    - {label: bibtex, url: bibtex/icra25.txt}
+  description: >-
+    ITPS lets a human steer a pretrained diffusion policy at inference time by biasing its sampling
+    with point, sketch, or physical-correction inputs, with no fine-tuning. Stochastic sampling gives
+    the best trade-off between following user intent and staying in-distribution.
+
+- key: ral25
+  title: "Aim My Robot: Precision Local Navigation to Any Object"
+  url: https://research.nvidia.com/labs/srl/publication/meng-2025-aim/
+  authors: [Xiangyun Meng, Jenai Xuning Yang, Sanghun Jung, Fabio Ramos, Sri Sadhan Jujjavarapu, Sanjoy Paul, Dieter Fox]
+  venue: RA-L 2025
+  video: assets/papers/amr.mp4
+  thumb: assets/papers/amr.jpg
+  links:
+    - {label: paper, url: https://arxiv.org/pdf/2411.14770}
+    - {label: project, url: https://research.nvidia.com/labs/srl/publication/meng-2025-aim/}
+    - {label: bibtex, url: bibtex/ral25.txt}
+  description: >-
+    Aim My Robot navigates a mobile robot to a centimeter-precise pose relative to any nearby object,
+    rather than the meter-level tolerance of typical navigation stacks. It is trained entirely on
+    photorealistic simulated data and transfers to real robots and unseen objects.
+
+- key: iros24
+  title: "Fast Explicit-Input Assistance for Teleoperation in Clutter"
+  url: https://arxiv.org/abs/2402.02612
+  authors: [Nick Walker, Jenai Xuning Yang, Animesh Garg, Maya Cakmak, Dieter Fox, Claudia Pérez-D'Arpino]
+  venue: IROS 2024
+  thumb: assets/papers/iros24.jpg
+  links:
+    - {label: paper, url: https://arxiv.org/pdf/2402.02612}
+    - {label: code, url: https://github.com/NVlabs/fast-explicit-teleop}
+    - {label: bibtex, url: bibtex/iros24.txt}
+  description: >-
+    Instead of inferring operator intent in cluttered scenes, the operator points the gripper at the
+    target to state the goal explicitly. In a 20-person study, participants preferred this approach,
+    had fewer pick failures, and reported lower workload than with inference-based assistance.
+
+- key: iros20
+  title: "Assisted Mobile Robot Teleoperation with Intent-aligned Trajectories via Biased Incremental Action Sampling"
+  url: https://ieeexplore.ieee.org/document/9341514
+  authors: [Jenai Xuning Yang, Nathan Michael]
+  venue: IROS 2020
+  thumb: assets/gifs/iros20.gif
+  links:
+    - {label: paper, url: /papers/IROS20.pdf}
+    - {label: code, url: https://github.com/xuningy/motion_primitive_tree}
+    - {label: talk, url: https://youtu.be/Tulya5WtB_Y}
+    - {label: bibtex, url: bibtex/iros20.txt}
+  description: >-
+    An assisted teleoperation method that grows a tree of motion primitives biased toward the
+    operator's inferred intent, producing smooth, collision-free trajectories that stay aligned with
+    the operator's input on a mobile robot.
+
+- key: iser18
+  title: "Fast and Agile Vision-Based Flight with Teleoperation and Collision Avoidance on a Multirotor"
+  url: https://arxiv.org/abs/1905.13419
+  authors: ["Alex Spitzer*", "Jenai Xuning Yang*", John Yao, Aditya Dhawale, Kshitij Goel, Mosam Dabhi, Matt Collins, Curt Boirum, Nathan Michael]
+  note: "* equal contribution"
+  venue: ISER 2018
+  video: assets/papers/iser18.mp4
+  thumb: assets/papers/iser18.jpg
+  links:
+    - {label: paper, url: /papers/ISER18.pdf}
+    - {label: video, url: https://www.youtube.com/watch?v=_-KmGhP0HTQ}
+    - {label: bibtex, url: bibtex/iser18.txt}
+  description: >-
+    A complete system for fast, agile multirotor flight using only onboard vision, combining
+    teleoperation with real-time collision avoidance, demonstrated in cluttered indoor and outdoor
+    environments.

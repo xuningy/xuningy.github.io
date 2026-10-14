@@ -1,6 +1,6 @@
 BibTeX
 @phdthesis{Yang-2022-131020,
-author = {Xuning Yang},
+author = {Jenai Xuning Yang},
 title = {Human-in-the-loop Planning of Mobile Robots},
 year = {2022},
 month = {January},

@@ -1,0 +1,48 @@
+{%- comment -%}
+Renders one publication entry from _data/papers.yml.
+Usage: {% include paper.html paper=p %}
+{%- endcomment -%}
+{%- assign p = include.paper -%}
+<div class="pub{% if p.highlight %} pub-highlight{% endif %}">
+  <a class="pub-thumb" href="{{ p.url }}" aria-hidden="true" tabindex="-1">
+    {%- if p.video -%}
+      <video autoplay loop muted playsinline preload="metadata"{% if p.thumb %} poster="{{ site.baseurl }}/{{ p.thumb }}"{% endif %}>
+        <source src="{{ site.baseurl }}/{{ p.video }}" type="video/mp4">
+      </video>
+    {%- elsif p.thumb -%}
+      <img src="{{ site.baseurl }}/{{ p.thumb }}" alt="" loading="lazy">
+    {%- else -%}
+      <span class="pub-thumb-placeholder">{{ p.title | split: ":" | first }}</span>
+    {%- endif -%}
+  </a>
+  <div class="pub-body">
+    <a class="pub-title" href="{{ p.url }}">{{ p.title }}</a>
+    <div class="pub-authors">
+      {%- for a in p.authors -%}
+        {%- assign name = a | remove: "*" -%}
+        {%- assign star = a | split: name | last -%}
+        {%- assign site_url = site.data.authors[name] -%}
+        {%- if name == "Jenai Xuning Yang" -%}<strong>{{ name }}</strong>
+        {%- elsif site_url -%}<a class="pub-author" href="{{ site_url }}">{{ name }}</a>
+        {%- else -%}{{ name }}{%- endif -%}{{ star }}
+        {%- unless forloop.last %}, {% endunless -%}
+      {%- endfor -%}
+      {%- if p.note %} <span class="pub-note">({{ p.note }})</span>{% endif -%}
+    </div>
+    <div class="pub-meta"><span class="pub-venue">{{ p.venue }}</span>{% if p.status %} <span class="pub-status">{{ p.status }}</span>{% endif %}</div>
+    {%- if p.links -%}
+    <div class="pub-links">
+      {%- for l in p.links -%}
+        {%- assign href = l.url -%}
+        {%- unless href contains "://" or href contains "mailto:" -%}
+          {%- assign href = href | prepend: "/" | replace: "//", "/" | prepend: site.baseurl -%}
+        {%- endunless -%}
+        <a href="{{ href }}">[{{ l.label }}]</a>
+      {%- endfor -%}
+    </div>
+    {%- endif -%}
+    {%- if p.description -%}
+    <p class="pub-desc">{{ p.description }}</p>
+    {%- endif -%}
+  </div>
+</div>

@@ -1,6 +1,6 @@
 @article{Meng2025aimmyrobot,
   title={Aim My Robot: Precision Local Navigation to Any Object},
-  author={Xiangyun Meng and Xuning Yang and Sanghun Jung and Fabio Ramos and Sri Sadhan Jujjavarapu and Sanjoy Paul and Dieter Fox},
+  author={Xiangyun Meng and Jenai Xuning Yang and Sanghun Jung and Fabio Ramos and Sri Sadhan Jujjavarapu and Sanjoy Paul and Dieter Fox},
   journal={IEEE Robotics and Automation Letters},
   year={2025}
 }

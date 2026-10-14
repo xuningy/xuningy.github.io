@@ -1,6 +1,6 @@
 @inproceedings{Wang2025itps,
   title={Inference-Time Policy Steering through Human Interactions},
-  author={Yanwei Wang and Lirui Wang and Yilun Du and Balakumar Sundaralingam and Xuning Yang and Yu-Wei Chao and Claudia P{\'e}rez-D'Arpino and Dieter Fox and Julie Shah},
+  author={Yanwei Wang and Lirui Wang and Yilun Du and Balakumar Sundaralingam and Jenai Xuning Yang and Yu-Wei Chao and Claudia P{\'e}rez-D'Arpino and Dieter Fox and Julie Shah},
   booktitle={2025 IEEE International Conference on Robotics and Automation (ICRA)},
   year={2025}
 }
