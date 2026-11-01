@@ -23,16 +23,16 @@ navbar:
    link: "/blog"
  - name: "github"
    link: "https://github.com/xuningy"
-   icon: "fa-github"
+   icon: "fa-brands fa-github"
  - name: "google scholar"
    link: "https://scholar.google.com/citations?hl=en&user=hM9EtNwAAAAJ"
-   icon: "fa-google-scholar"
+   icon: "fa-solid fa-graduation-cap"
  - name: "linkedin"
    link: "https://www.linkedin.com/in/xuningyang"
-   icon: "fa-linkedin-in"
+   icon: "fa-brands fa-linkedin-in"
  - name: "x"
    link: "https://x.com/xuningy"
-   icon: "fa-x-twitter"
+   icon: "fa-brands fa-x-twitter"
 
 markdown: kramdown
 kramdown:
