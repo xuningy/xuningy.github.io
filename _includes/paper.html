@@ -19,8 +19,8 @@ Usage: {% include paper.html paper=p %}
     <a class="pub-title" href="{{ p.url }}">{{ p.title }}</a>
     <div class="pub-authors">
       {%- for a in p.authors -%}
-        {%- assign name = a | remove: "*" -%}
-        {%- assign star = a | split: name | last -%}
+        {%- assign name = a | remove: "*" | remove: "†" | remove: "‡" -%}
+        {%- assign star = a | remove: name -%}
         {%- assign site_url = site.data.authors[name] -%}
         {%- if name == "Jenai Xuning Yang" -%}<strong>{{ name }}</strong>
         {%- elsif site_url -%}<a class="pub-author" href="{{ site_url }}">{{ name }}</a>

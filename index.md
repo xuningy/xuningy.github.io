@@ -31,14 +31,16 @@ You can contact me at xuningy at nvidia dot com.
 
 </details>
 
-### Selected publications
+<div class="pub-header">
+  <h3 id="selected-works">Selected Works</h3>
+  <a class="pub-all" href="{{ site.baseurl }}/papers">View All →</a>
+</div>
+<p class="pub-legend"><span>* equal contribution</span><span>† project lead</span><span>‡ equal advising</span></p>
 
 {% assign selected = site.data.papers | where: "selected", true %}
 <div class="pub-list">
 {% for p in selected %}{% include paper.html paper=p %}{% endfor %}
 </div>
-
-<p class="pub-more"><a href="{{ site.baseurl }}/papers">View all publications →</a></p>
 
 <hr>
 

@@ -19,6 +19,8 @@ sass:
     sass_dir: css
 
 navbar:
+ - name: "papers"
+   link: "/papers"
  - name: "blog"
    link: "/blog"
  - name: "github"

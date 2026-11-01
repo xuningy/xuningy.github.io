@@ -2,14 +2,15 @@
 # - `selected: true` shows the entry on the home page; papers.md lists everything.
 # - `highlight: true` renders the entry on a soft tinted card.
 # - `status` adds a gray pill after the venue, e.g. "In submission to ICLR 2027".
-# - Put a trailing "*" on a name for equal-contribution marks and explain it in `note`.
+# - Put a trailing "*" (equal contribution), "†" (project lead), or "‡" (equal advising) on a name;
+#   the legend above the lists explains them. `note` adds a one-off explanation after the authors.
 # - `thumb` is an image path under the site root; `video` is an mp4 path (thumb then acts as poster).
 #   Omit both to render a text placeholder.
 
 - key: astranomy26
   title: "Astranomy: An Empirical Study of GPT-6 Astra as a Native Robot Policy"
   url: https://research.nvidia.com/labs/srl/projects/astranomy/
-  authors: [Jenai Xuning Yang, Ashna Khetan, Shun Zhang]
+  authors: [Jenai Xuning Yang†, Ashna Khetan, Shun Zhang]
   venue: CoRL 2026 LBR
   video: assets/papers/astra.mp4
   thumb: assets/papers/astra.jpg
@@ -27,8 +28,7 @@
 - key: arc26
   title: "ARC: A Reasoning Recipe for Robot Foundation Models"
   url: https://arc-robot-reasoning.github.io/
-  authors: [Gokul Puthumanaillam, Tao Sun, Elie Aljalbout, Moritz Reuss, Zhaoshuo Li, Fabio Ramos, "Ankit Goyal*", "Jenai Xuning Yang*"]
-  note: "* equal advising"
+  authors: [Gokul Puthumanaillam, Tao Sun, Elie Aljalbout, Moritz Reuss, Zhaoshuo Li, Fabio Ramos, "Ankit Goyal‡", "Jenai Xuning Yang‡"]
   venue: arXiv 2026
   status: In submission to ICLR 2027
   highlight: true
@@ -47,7 +47,7 @@
 - key: robolab26
   title: "RoboLab: A High-Fidelity Simulation Benchmark for Analysis of Task Generalist Policies"
   url: https://research.nvidia.com/labs/srl/projects/robolab/
-  authors: [Jenai Xuning Yang, Rishit Dagli, Alex Zook, Hugo Hadfield, Ankit Goyal, Stan Birchfield, Fabio Ramos, Jonathan Tremblay]
+  authors: [Jenai Xuning Yang†, Rishit Dagli, Alex Zook, Hugo Hadfield, Ankit Goyal, Stan Birchfield, Fabio Ramos, Jonathan Tremblay]
   venue: RSS 2026
   highlight: true
   video: assets/papers/robolab.mp4
@@ -129,7 +129,7 @@
 - key: robeval25
   title: "Robot Policy Evaluation for Sim-to-Real Transfer: A Benchmarking Perspective"
   url: https://arxiv.org/abs/2508.11117
-  authors: [Jenai Xuning Yang, Clemens Eppner, Jonathan Tremblay, Dieter Fox, Stan Birchfield, Fabio Ramos]
+  authors: [Jenai Xuning Yang†, Clemens Eppner, Jonathan Tremblay, Dieter Fox, Stan Birchfield, Fabio Ramos]
   venue: RSS 2025 Workshop
   thumb: assets/papers/robeval.jpg
   links:
@@ -224,7 +224,6 @@
   title: "Fast and Agile Vision-Based Flight with Teleoperation and Collision Avoidance on a Multirotor"
   url: https://arxiv.org/abs/1905.13419
   authors: ["Alex Spitzer*", "Jenai Xuning Yang*", John Yao, Aditya Dhawale, Kshitij Goel, Mosam Dabhi, Matt Collins, Curt Boirum, Nathan Michael]
-  note: "* equal contribution"
   venue: ISER 2018
   video: assets/papers/iser18.mp4
   thumb: assets/papers/iser18.jpg

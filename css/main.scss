@@ -332,6 +332,12 @@ pre code {
     color: var(--heading);
 }
 
+.page-title.page-title-left {
+    text-align: left;
+    font-size: 1.45rem;
+    letter-spacing: -0.01em;
+}
+
 .page-subtitle {
     text-align: center;
     color: var(--text-muted);
@@ -722,9 +728,30 @@ a.pub-author {
     margin: var(--space-3) 0 0;
 }
 
-.pub-more {
-    margin-top: var(--space-4);
+.pub-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    column-gap: var(--space-4);
+}
+
+.pub-all {
     font-size: 0.95rem;
+}
+
+.pub-legend {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: var(--space-4);
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    margin: 0;
+}
+
+// Keep the first entry close to the legend above it
+.pub-legend + .pub-list > .pub:first-child:not(.pub-highlight) {
+    padding-top: var(--space-3);
 }
 
 @media (max-width: 600px) {
