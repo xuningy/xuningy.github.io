@@ -14,7 +14,11 @@
     <ul id="navlist" class="navbar-ul">
         {% for x in site.navbar %}
         <li class="navbar-list">
+            {%- if x.icon %}
+            <a class="navbar-icon" href="{{ x.link }}" title="{{ x.name }}" aria-label="{{ x.name }}"><i class="fa-brands {{ x.icon }}" aria-hidden="true"></i></a>
+            {%- else %}
             <a href="{{ x.link }}">{{ x.name }}</a>
+            {%- endif %}
         </li>
         {% endfor %}
     </ul>

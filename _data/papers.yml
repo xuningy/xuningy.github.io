@@ -10,7 +10,7 @@
   title: "Astranomy: An Empirical Study of GPT-6 Astra as a Native Robot Policy"
   url: https://research.nvidia.com/labs/srl/projects/astranomy/
   authors: [Jenai Xuning Yang, Ashna Khetan, Shun Zhang]
-  venue: Tech Report 2026
+  venue: CoRL 2026 LBR
   video: assets/papers/astra.mp4
   thumb: assets/papers/astra.jpg
   links:

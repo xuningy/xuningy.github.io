@@ -8,8 +8,9 @@ I am a Senior Research Scientist at the [Seattle Research Lab (SRL)](https://res
 
 You can contact me at xuningy at nvidia dot com.
 
-### Highlights
+### News
 
+- <span class="highlight-date">10/2026</span> Gave a talk at the [UW CSE Robotics Colloquium](https://robotics.cs.washington.edu/) alongside [Lars Johannsmeier](https://research.nvidia.com/person/lars-johannsmeier){: .pub-author} and [Yixuan Wang](https://wangyixuan12.github.io/){: .pub-author}
 - <span class="highlight-date">10/2026</span> Released [Astranomy](https://research.nvidia.com/labs/srl/projects/astranomy/), an empirical study of GPT-6 Astra as a native robot policy
 - <span class="highlight-date">10/2026</span> Released [ARC](https://arc-robot-reasoning.github.io/), a reasoning recipe for robot foundation models
 - <span class="highlight-date">09/2026</span> [VoLo](https://chicychen.github.io/VoLo/) has been accepted to CoRL 2026 (33% AR)!
@@ -22,7 +23,7 @@ You can contact me at xuningy at nvidia dot com.
 - <span class="highlight-date">04/2026</span> [AdaVoMP](https://research.nvidia.com/labs/sil/projects/adavomp/) has been accepted to ICML 2026 (26.6% AR)!
 
 <details class="more-highlights" markdown="1">
-<summary><span class="more-label">More highlights</span><span class="less-label">Fewer highlights</span></summary>
+<summary><span class="more-label">Older</span><span class="less-label">Show less</span></summary>
 
 - <span class="highlight-date">04/2026</span> [RoboLab](https://research.nvidia.com/labs/srl/projects/robolab/) is released! Highlighted in Nvidia's [National Robotics Week](https://blogs.nvidia.com/blog/national-robotics-week-2026/)
 - <span class="highlight-date">05/2024</span> Built an automatic [pick-and-place pipeline in simulation](https://blogs.nvidia.com/blog/national-robotics-week-2026/) in collaboration with Intrinsic.AI: [TechCrunch](https://techcrunch.com/2024/05/06/alphabet-owned-intrinsic-incorporates-nvidia-tech-into-robotics-platform/), [AI Business](https://aibusiness.com/verticals/nvidia-intrinsic-collaborate-to-enhance-robot-task-management), [The Robot Report](https://www.therobotreport.com/intrinsic-uses-nvidia-foundation-model-to-improve-robotic-grasping/)
